@@ -1,0 +1,33 @@
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    .menu {
+        width: 90%;
+        background-color: green;
+        display: flex;
+        justify-content: space-around;
+        height: 10rem;
+        align-items: center;
+    }
+}
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+    .menu {
+        width: 80%;
+        background-color: green;
+        display: flex;
+        justify-content: space-around;
+        height: 10rem;
+        align-items: center;
+    }
+}
+/*D_E_S_K_T_O_P*/
+@media screen and (min-width:769px) {
+    .menu {
+        width: 80%;
+        background-color: green;
+        display: flex;
+        justify-content: space-around;
+        height: 10rem;
+        align-items: center;
+    }
+}
