@@ -2,7 +2,7 @@
 @media screen and (min-width:360px) {
     /*F_O_O_T_E_R*/
 .footer{
-    background-color: green;
+    background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
 @media screen and (min-width:768px) {
     /*F_O_O_T_E_R*/
 .footer{
-    background-color: green;
+    background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
     width: 80%;
     display: flex;
     flex-direction: column;
