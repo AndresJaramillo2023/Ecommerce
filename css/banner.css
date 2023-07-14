@@ -10,7 +10,7 @@
 }
 
 .banner-imagen{
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -19,29 +19,32 @@
 
 .banner-imagen__titulo{
     color: white;
-    font-size: 3.8rem;
+    /* font-size: 3.8rem; */
     font-weight: bold;
     font-family: 'Arial';
-    margin: 0rem 0 0.5rem 0; 
+    margin: 0rem 0 0.3rem 0;
+    font-size: x-large;
+    width: 100%;
 }
 
 .banner-imagen__subtitulo{
     color: white;
-    font-size: 1.6rem;
+    font-size: smaller;
     font-weight: bold;
     font-family: 'Arial';
-    margin: 3rem 0 0.5rem 0;
+    margin: 1rem 0 0.5rem 0;
+    width: 100%;
 }
 
 .banner-imagen__link{
     background-color: #199319;
-  color: white;
-  padding: 15px 25px;
-  text-decoration: none;
-  border: 0.2rem solid rgb(7, 53, 4);
-  border-radius: 0.3rem;
-  margin: 2rem 0 2rem 0;
-  font-weight: lighter;
+    color: white;
+    padding: 7.5px 12.5px;
+    text-decoration: none;
+    border: 0.2rem solid rgb(7, 53, 4);
+    border-radius: 0.3rem;
+    margin: 0.3rem 0 1rem 0;
+    font-weight: lighter;
 }
 
 .banner-imagen__link:hover{
@@ -70,29 +73,29 @@
 
 .banner-imagen__titulo{
     color: white;
-    font-size: 3.8rem;
+    font-size: xxx-large;
     font-weight: bold;
     font-family: 'Arial';
-    margin: 0rem 0 0.5rem 0; 
+    margin: 0rem 0 0.rem 0;
 }
 
 .banner-imagen__subtitulo{
     color: white;
-    font-size: 1.6rem;
+    font-size: larger;
     font-weight: bold;
     font-family: 'Arial';
-    margin: 3rem 0 0.5rem 0;
+    margin: 2rem 0 0.2rem 0;
 }
 
 .banner-imagen__link{
     background-color: #199319;
-  color: white;
-  padding: 15px 25px;
-  text-decoration: none;
-  border: 0.2rem solid rgb(7, 53, 4);
-  border-radius: 0.3rem;
-  margin: 2rem 0 2rem 0;
-  font-weight: lighter;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 0.2rem solid rgb(7, 53, 4);
+    border-radius: 0.3rem;
+    margin: 1.5rem 0 2rem 0;
+    font-weight: lighter;
 }
 
 .banner-imagen__link:hover{
@@ -122,29 +125,29 @@
 
 .banner-imagen__titulo{
     color: white;
-    font-size: 3.8rem;
+    font-size: xxx-large;
     font-weight: bold;
     font-family: 'Arial';
-    margin: 0rem 0 0.5rem 0; 
+    margin: 0rem 0 0.5rem 0;
 }
 
 .banner-imagen__subtitulo{
     color: white;
-    font-size: 1.6rem;
+    font-size: larger;
     font-weight: bold;
     font-family: 'Arial';
-    margin: 3rem 0 0.5rem 0;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 .banner-imagen__link{
     background-color: #199319;
-  color: white;
-  padding: 15px 25px;
-  text-decoration: none;
-  border: 0.2rem solid rgb(7, 53, 4);
-  border-radius: 0.3rem;
-  margin: 2rem 0 2rem 0;
-  font-weight: lighter;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 0.2rem solid rgb(7, 53, 4);
+    border-radius: 0.3rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: lighter;
 }
 
 .banner-imagen__link:hover{
