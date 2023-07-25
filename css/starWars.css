@@ -65,6 +65,12 @@
         font-family: 'Normal';
     }
 
+    .starWars__titulo__icono:hover{
+        font-family:Arial;
+        color:rgb(97, 67, 133);
+        font-weight:bold;
+    }
+
     /*starWars__titulo__icono__link*/
     .starWars__titulo__icono__link {
         background-color: #223094;
@@ -146,6 +152,14 @@
         font-family: 'Normal';
     }
 
+     /* .starWars__titulo__icono__link */
+     .starWars__galeria__box__lista__item-link>a:hover{
+        color: rgb(206, 40, 11);
+        font-family: 'Montserrat';
+        font-size: small;
+        transition: 3000ms;
+    }
+
 }
 
 /*T_A_B_L_E_T*/
@@ -220,6 +234,13 @@
         font-size: larger;
         font-family: 'Normal';
          width:25%;
+    }
+
+    .starWars__titulo__icono:hover{
+        font-family:Arial;
+        color:rgb(97, 67, 133);
+        font-weight:bold;
+        font-size: large;
     }
 
     /*starWars__titulo__icono__link*/
@@ -305,6 +326,14 @@
         font-weight: bold;
         font-family: 'Normal';
     }
+
+     /* .starWars__titulo__icono__link */
+     .starWars__galeria__box__lista__item-link>a:hover{
+        color: rgb(206, 40, 11);
+        font-family: 'Montserrat';
+        font-size: small;
+        transition: 3000ms;
+    }
 }
 
 /*D_E_S_K_T_O_P*/
@@ -380,6 +409,13 @@
         font-weight: bold;
         font-size: large;
         font-family: 'Normal';
+    }
+
+    .starWars__titulo__icono:hover{
+        font-family:Arial;
+        color:rgb(97, 67, 133);
+        font-weight:bold;
+        font-size: medium;
     }
 
     /*starWars__titulo__icono__link*/
@@ -458,5 +494,13 @@
         font-size: x-large;
         font-weight: bold;
         font-family: 'Normal';
+    }
+
+    /* .starWars__titulo__icono__link */
+    .starWars__galeria__box__lista__item-link>a:hover{
+        color: rgb(206, 40, 11);
+        font-family: 'Montserrat';
+        font-size: medium;
+        transition: 3000ms;
     }
 }
