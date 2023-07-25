@@ -378,14 +378,23 @@
                     </ul>
                 </div>
                 <div class="empresa__contacto">
-                    <form action="" class="empresa__contacto__form">
-                        <label for="" class="empresa__contacto__form__label">Hable con nosotros</label>
-                        <input type="text" class="empresa__contacto__form__input" placeholder="Nombre">
-                        <textarea name="" id="" cols="30" rows="10" class="empresa__contacto__form__textarea"
-                            placeholder="Escribe tu mensaje"></textarea>
-                            <div class="empresa__contacto__form__wrapper__button">
-                                <button class="empresa__contacto__form__button">Enviar mensaje</button>
-                            </div>
+                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                        <label class="empresa__contacto__form__label">Hable con nosotros</label>
+                        <div class="input-container">
+                            <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
+                                placeholder="Nombre" required pattern="[\s\S]{10,40}" data-tipo="empresa">
+                            <label class="input-label" for="empresa"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <textarea name="mensaje" id="mensaje" cols="1" rows="1" class="empresa__contacto__form__textarea" type="text"
+                            placeholder="Escribe tu mensaje" required minlength="1" maxlength="140" title="Este es el title de text area">Mi mensaje</textarea>
+                            <label class="input-label" for="mensaje"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="empresa__contacto__form__wrapper__button">
+                            <button class="empresa__contacto__form__button" id="enviar">Enviar mensaje</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -397,6 +406,7 @@
                 <p>2023</p>
             </div>
         </section>
+        <script src="./js/app.js"  type="module"></script>
 </body>
 
 </html>
