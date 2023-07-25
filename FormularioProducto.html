@@ -47,13 +47,49 @@
         <!-- Sección formulario -->
         <section class="formulario">
             <div class="formulario__wrapper">
-                <form action="" class="formulario__wrapper__form">
+                <form action="./index.html" class="formulario__wrapper__form" data-form>
                     <label for="" class="formulario__wrapper__form__label">Agregar nuevo producto</label>
-                    <input type="url" class="formulario__wrapper__form__input" placeholder="URL de imagen">
-                    <input type="text" class="formulario__wrapper__form__input" placeholder="Categoría">
-                    <input type="text" class="formulario__wrapper__form__input" placeholder="Nombre del producto">
-                    <input type="number" class="formulario__wrapper__form__input" placeholder="Precio del producto">
-                    <textarea name="" id="" cols="30" rows="10" class="formulario__wrapper__form__textarea" placeholder="Descripción del producto"></textarea>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container-formulario-producto">
+                            <input name="url" id="url" type="url" class="formulario__wrapper__form__input"
+                                placeholder="URL de imagen" required data-tipo="link" pattern="https?://([a-zA-Z0-9]([^ @&%$\\\/\(\)=?¿!.,:;]|\\d)*[a-zA-Z0-9][\.]){1,2}[a-zA-Z]{2,4}((?<=[a-zA-Z]{2,4})[\.][a-zA-Z]{2})?/?((?<=/)(([^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]|\d)+[\/]?)*(#(?<=#)[^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]*)?(\?(?<=\?)([^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+[=][^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+(&(?<=&)[^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+[=][^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*\|]+)*))?)?">
+                            <label class="input-label-formulario-producto" for="url"></label>
+                            <span class="input-message-error-formulario-producto"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container-formulario-producto">
+                            <input name="categoria" id="categoria" type="text" class="formulario__wrapper__form__input"
+                                placeholder="Categoría" required pattern="^[a-zA-Z0-9 ]+$" data-tipo="grupo">
+                            <label class="input-label-formulario-producto" for="categoria"></label>
+                            <span class="input-message-error-formulario-producto"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container-formulario-producto">
+                            <input name="nombre" id="nombre" type="text" class="formulario__wrapper__form__input"
+                                placeholder="Nombre del producto" required pattern="^[a-zA-Z0-9 ]+$" data-tipo="renombre">
+                            <label class="input-label-formulario-producto" for="nombre"></label>
+                            <span class="input-message-error-formulario-producto"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container-formulario-producto">
+                            <input name="precio" id="precio" type="number" class="formulario__wrapper__form__input"
+                                placeholder="Precio del producto" required pattern="/d+[0-9]" data-tipo="costo">
+                            <label class="input-label-formulario-producto" for="numero"></label>
+                            <span class="input-message-error-formulario-producto"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container-formulario-producto">
+                            <textarea name="descripcion" id="descripcion" class="formulario__wrapper__form__textarea" 
+                                placeholder="Descripción del producto" required minlength="1" maxlength="150" cols="1" rows="1" 
+                                 title="Este es el title de text area" type="text"></textarea>
+                            <label class="input-label-formulario-producto" for="descripcion"></label>
+                            <span class="input-message-error-formulario-producto"></span>
+                        </div>
+                    </div>
                     <button class="formulario__wrapper__form__button">Agregar produto</button>
                 </form>
             </div>
@@ -88,15 +124,26 @@
                     </ul>
                 </div>
                 <div class="empresa__contacto">
-                    <form action="" class="empresa__contacto__form">
-                        <label for="" class="empresa__contacto__form__label">Hable con nosotros</label>
-                        <input type="text" class="empresa__contacto__form__input" placeholder="Nombre">
-                        <textarea name="" id="" cols="30" rows="10" class="empresa__contacto__form__textarea"
-                            placeholder="Escribe tu mensaje"></textarea>
-                            <div class="empresa__contacto__form__wrapper__button">
-                                <button class="empresa__contacto__form__button">Enviar mensaje</button>
-                            </div>                   
-                        </form>
+                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                        <label class="empresa__contacto__form__label">Hable con nosotros</label>
+                        <div class="input-container">
+                            <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
+                                placeholder="Nombre" required pattern="[\s\S]{10,40}" data-tipo="empresa">
+                            <label class="input-label" for="empresa"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <textarea name="mensaje" id="mensaje" cols="1" rows="1"
+                                class="empresa__contacto__form__textarea" type="text" placeholder="Escribe tu mensaje"
+                                required minlength="1" maxlength="140"
+                                title="Este es el title de text area">Mi mensaje</textarea>
+                            <label class="input-label" for="mensaje"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="empresa__contacto__form__wrapper__button">
+                            <button class="empresa__contacto__form__button" id="enviar">Enviar mensaje</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -108,6 +155,40 @@
             </div>
         </section>
     </div>
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>
+
+<!-- <script>
+    const inputs = document.querySelectorAll("input");
+    inputs.forEach( //LIMPIAR TEXTO
+        (input) => {
+            input.addEventListener("blur", (input) => {
+                quitarEspaciosEnBlanco(input.target);
+            });
+        }
+    );
+
+
+
+    //PARA TEXTAREAS
+    const textareas = document.querySelectorAll("textarea");
+    textareas.forEach( //lIMPIAR TEXTO
+        (textarea) => {
+            textarea.addEventListener("blur", (textarea) => {
+                quitarEspaciosEnBlanco(textarea.target);
+            });
+        }
+    );
+
+
+
+    function quitarEspaciosEnBlanco(textareaOinput) {
+        const datosTextAreaOinput = textareaOinput.value;
+        // console.log(datosTextAreaOinput);
+        const datosTextAreaOinputLimpios = datosTextAreaOinput.trim();
+        // console.log(datosTextAreaOinputLimpios);
+        textareaOinput.value = datosTextAreaOinputLimpios;
+    }
+</script> -->
