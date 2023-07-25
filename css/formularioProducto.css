@@ -36,6 +36,39 @@
         color: black;
         width: 100%;
     }
+
+    /*formulario__wrapper__formulario__producto__principal*/
+    .formulario__wrapper__formulario__producto__principal{
+        background-color: rgb(154, 159, 185);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /*input-container-formulario-producto*/
+    .input-container-formulario-producto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    /*input-label-formulario-producto*/
+     .input-label-formulario-producto{
+        border: #df2525 solid 0.1rem;
+        color: #df2525;
+        border-radius: 0.2rem;
+        width: 100%;
+    }
+    
+    /*input-message-error-formulario-producto*/
+    .input-message-error-formulario-producto {
+        font-weight: bold;
+        font-family: 'Montserrat';
+        font-size: medium;
+    }
     
     .formulario__wrapper__form__input{
         background-color: white;
@@ -115,13 +148,46 @@
         font-weight: bold;
         font-family: 'Arial';
         color: black;
-        width: 90%;
+        width: 100%;
+    }
+
+    /*formulario__wrapper__formulario__producto__principal*/
+    .formulario__wrapper__formulario__producto__principal{
+        background-color: rgb(154, 159, 185);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /*input-container-formulario-producto*/
+    .input-container-formulario-producto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    /*input-label-formulario-producto*/
+     .input-label-formulario-producto{
+        border: #df2525 solid 0.1rem;
+        color: #df2525;
+        border-radius: 0.2rem;
+        width: 100%;
+    }
+    
+    /*input-message-error-formulario-producto*/
+    .input-message-error-formulario-producto {
+        font-weight: bold;
+        font-family: 'Montserrat';
+        font-size: medium;
     }
     
     .formulario__wrapper__form__input{
         background-color: white;
         font-size: large;
-        width: 90%;
+        width: 100%;
         height: 4.5rem;
         border-radius: 0.3rem;
         box-sizing: border-box;
@@ -132,8 +198,8 @@
     
     .formulario__wrapper__form__textarea{
         background-color: white;
-        width: 90%;
-        height: auto;
+        width: 100%;
+        height: 7rem;
         box-sizing: border-box;
         border-radius: 0.3rem;
         font-size: large;
@@ -145,7 +211,7 @@
         background-color:  #2A7AE4;
         font-size: larger;
         color:white;
-        width: 90%;
+        width: 100%;
         height: 4.5rem;
         box-sizing: border-box;
         border-radius: 0.3rem;
@@ -196,14 +262,47 @@
         font-weight: bold;
         font-family: 'Arial';
         color: black;
-        width: 40%;
+        width: 50%;
         text-align: left;
+    }
+
+    /*formulario__wrapper__formulario__producto__principal*/
+    .formulario__wrapper__formulario__producto__principal{
+        background-color: rgb(154, 159, 185);
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /*input-container-formulario-producto*/
+    .input-container-formulario-producto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    /*input-label-formulario-producto*/
+     .input-label-formulario-producto{
+        border: #df2525 solid 0.1rem;
+        color: #df2525;
+        border-radius: 0.2rem;
+        width: 100%;
+    }
+    
+    /*input-message-error-formulario-producto*/
+    .input-message-error-formulario-producto {
+        font-weight: bold;
+        font-family: 'Montserrat';
+        font-size: medium;
     }
     
     .formulario__wrapper__form__input{
         background-color: white;
         font-size: large;
-        width: 40%;
+        width: 100%;
         height: 4rem;
         border-radius: 0.3rem;
         box-sizing: border-box;
@@ -214,8 +313,8 @@
     
     .formulario__wrapper__form__textarea{
         background-color: white;
-        width: 40%;
-        height: auto;
+        width: 100%;
+        height: 6rem;
         box-sizing: border-box;
         border-radius: 0.3rem;
         font-size: large;
@@ -227,7 +326,7 @@
         background-color:  #2A7AE4;
         font-size: larger;
         color:white;
-        width: 40%;
+        width: 50%;
         height: 4.5rem;
         box-sizing: border-box;
         border-radius: 0.3rem;

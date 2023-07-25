@@ -3,7 +3,7 @@
     /*EMPRESA*/
     .empresa {
         background: linear-gradient(to right, rgb(240, 152, 25), rgb(237, 222, 93));
-        width: 80%;
+        width:90%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -110,6 +110,29 @@
         width: 100%;
     }
 
+    /*input-container*/
+    .input-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        box-sizing: border-box;
+    }
+
+     /*input-container--invalid*/
+     .input-container--invalid{
+        border: #df2525 solid 0.1rem;
+        color: #df2525;
+        border-radius: 0.2rem;
+    }
+
+   /*input-message-error*/
+   .input-message-error {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: medium;
+}
+
     /*empresa__contacto__form__input*/
     .empresa__contacto__form__input {
         width: 100%;
@@ -133,12 +156,15 @@
         width: 100%;
         height: 10rem;
         box-sizing: border-box;
-        margin: 0.5rem 0;
+        margin: 0.5rem 0 0 0;
         border-radius: 0.3rem;
         border-color: aliceblue;
         font-size: larger;
         outline: none;
         box-shadow: 0px 3px 0.2px rgb(62, 81, 90);
+        letter-spacing: 0.1rem;
+        text-align: left;
+        resize: none;
 
         /*y x grosor color*/
     }
@@ -178,7 +204,7 @@
 @media screen and (min-width:768px) {
     /*EMPRESA*/
     .empresa {
-        background-color: #69de76f5;
+        background: linear-gradient(to right, rgb(240, 152, 25), rgb(237, 222, 93));
         width:80%;
         display: flex;
         flex-direction: column;
@@ -191,7 +217,7 @@
     .wrapper {
         width: 100%;
         height: 22rem;
-        background-color: #69de76f5;
+        background: linear-gradient(to right, rgb(240, 152, 25), rgb(237, 222, 93));
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -234,7 +260,7 @@
     .empresa__informacion__lista {
         width: 100%;
         height: 20rem;
-        background-color: #69de76f5;
+        background: linear-gradient(to right, rgb(240, 152, 25), rgb(237, 222, 93));
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -268,7 +294,7 @@
     .empresa__contacto__form {
         width: 100%;
         height: 20rem;
-        background-color: #69de76f5;
+        background: linear-gradient(to right, rgb(240, 100, 25), rgb(237, 222, 93));
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -283,6 +309,40 @@
         font-family: 'Arial';
         line-height: normal;
     }
+
+    
+    /*input-container*/
+    .input-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        box-sizing: border-box;
+    }
+
+     /*input-container--invalid*/
+     .input-container--invalid{
+        border: #df2525 solid 0.1rem;
+        color: #df2525;
+        border-radius: 0.2rem;
+    }
+
+    /*input-message-error*/
+   .input-message-error {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: medium;
+}
+
+    /*Errores de input*/
+    
+      
+      .input-container--invalid .input-message-error {
+        color: var(--warning-color);
+        display: block;
+        margin-top: 0.5rem;
+        padding-left: 0.5rem;
+      }
 
     /*empresa__contacto__form__input*/
     .empresa__contacto__form__input {
@@ -304,15 +364,18 @@
     /*empresa__contacto__form__textarea*/
     .empresa__contacto__form__textarea {
         width: 100%;
-        height: 10rem;
+        height: 12.5rem;
         box-sizing: border-box;
-        margin: 1rem 0;
+        margin: 1rem 0 0 0;
         border-radius: 0.3rem;
         border-color: aliceblue;
         box-shadow: 0px 3px 0.2px rgb(62, 81, 90);
         /*y x grosor color*/
         font-size: larger;
         outline: none;
+        letter-spacing: 0.1rem;
+        text-align: left;
+        resize: none;
     }
 
     .empresa__contacto__form__textarea:hover {
@@ -348,7 +411,7 @@
 
     /*EMPRESA*/
     .empresa {
-        background-color: #69de76f5;
+        background: linear-gradient(to right, rgb(240, 152, 25), rgb(237, 222, 93));
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -361,7 +424,7 @@
     .wrapper {
         width: 100%;
         height: 20rem;
-        background-color: #69de76f5;
+        background: linear-gradient(to right, rgb(240, 152, 25), rgb(237, 222, 93));
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -371,7 +434,7 @@
     .empresa__imagenes {
         width: 25%;
         height: auto;
-        background-color: orange;
+        background: linear-gradient(to right, rgb(240, 100, 25), rgb(237, 222, 93));
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -451,6 +514,29 @@
         line-height: normal;
     }
 
+    /*input-container*/
+    .input-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        box-sizing: border-box;
+    }
+
+    /*input-container--invalid*/
+    .input-container--invalid{
+        border: #df2525 solid 0.1rem;
+        color: #df2525;
+        border-radius: 0.2rem;
+    }
+    
+    /*input-message-error*/
+    .input-message-error {
+        font-weight: bold;
+        font-family: 'Montserrat';
+        font-size: medium;
+    }
+
     /*empresa__contacto__form__input*/
     .empresa__contacto__form__input {
         font-size: larger;
@@ -472,13 +558,16 @@
         width: 100%;
         height: 10rem;
         box-sizing: border-box;
-        margin: 1rem 0;
+        margin: 1rem 0 0 0;
         border-radius: 0.3rem;
         border-color: aliceblue;
         box-shadow: 0px 3px 0.2px rgb(62, 81, 90);
         /*y x grosor color*/
-        font-size: larger;
         outline: none;
+        font-size: larger;
+        letter-spacing: 0.1rem;
+        text-align: left;
+        resize: none;
     }
 
     .empresa__contacto__form__textarea:hover {
@@ -494,12 +583,13 @@
     /*empresa__contacto__form__button*/
     .empresa__contacto__form__button {
         width: 33.3%;
-        padding: 0.5rem 0.5rem;
+        padding: 0.1;
         border-radius: 0.3rem;
         border-color: #2A7AE4;
         background-color: #2A7AE4;
         color: white;
-        font-size: larger;
+        font-size: small;
+        position: relative;
     }
 
     .empresa__contacto__form__button:hover {
