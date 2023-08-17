@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css  -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bases.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/starWars.css">
+    <link rel="stylesheet" href="assets/css/empresa.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- Fuente del Proyecto Releway -->
+    <link href="https://fonts.googleapis.com2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <!-- Sección del Menú -->
+    <div class="container">
+        <section class="menu">
+            <header class="menu__encabezado">
+                <img class="menu__icono" src="assets/img/icono.png" alt="Logo">
+                <img class="menu__imagen" src="assets/img/texto.png" alt="Imagen">
+            </header>
+            <nav class="menu__navegador">
+                <form action="" class="menu__navegador__form" id="menu__navegador__form" name="menu__navegador__form">
+                    <div class="menu__navegador__form__wrapper">
+                        <input type="search" id="search" name="search" placeholder="Que deseas buscar?"  
+                            class="menu__navegador__form__wrapper__input">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu__navegador__form__wrapper__icon"
+                            viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <a href="Login.html" class="menu__navegador__form__button">Login</a>
+                </form>
+            </nav>
+        </section>
+        <!-- Sección del Banner -->
+        <section class="banner">
+            <div class="banner-imagen">
+                <h1 class="banner-imagen__titulo">Febrero Promocional</h1>
+                <h2 class="banner-imagen__subtitulo">Productos seleccionados con 33% de descuento</h2>
+                <a class="banner-imagen__link" href="#idStarWars">Ver consolas</a>
+            </div>
+        </section>
+        <!-- Sección Galerias -->
+        <section class="galerias">
+            <!-- Sección StarWars -->
+            <section class="starWars" id="idStarWars">
+                <div class="starWars__wrapper">
+                    <div class="starWars__wrapper__titulo">
+                        <h2 class="starWars__titulo">Star Wars</h2>
+                        <div class="starWars__wrapper__titulo__icono">
+                            <a class="starWars__titulo__icono" href="screens/VerTodo.html">Ver todo</a>
+                            <img src="assets/img/flecha-correcta (1).png">
+                        </div>
+                    </div>
+                    <div class="starWars__galeria" data-product>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- Sección Consolas -->
+            <section class="starWars">
+                <div class="starWars__wrapper">
+                    <div class="starWars__wrapper__titulo">
+                        <h2 class="starWars__titulo">Consolas</h2>
+                        <div class="starWars__wrapper__titulo__icono">
+                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
+                            <img src="assets/img/flecha-correcta (1).png">
+                        </div>
+                    </div>
+                    <div class="starWars__galeria" data-product2>
+                        
+                    </div>
+                </div>
+            </section> 
+            <!-- Sección Diversos -->
+            <section class="starWars">
+                <div class="starWars__wrapper">
+                    <div class="starWars__wrapper__titulo">
+                        <h2 class="starWars__titulo">Diversos</h2>
+                        <div class="starWars__wrapper__titulo__icono">
+                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
+                            <img src="assets/img/flecha-correcta (1).png">
+                        </div>
+                    </div>
+                    <div class="starWars__galeria oscuro" data-product3>
+                        
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Sección Empresa -->
+        <section class="empresa">
+            <div class="wrapper">
+                <div class="empresa__imagenes">
+                    <img src="assets/img/icono.png" alt="" class="empresa__imagenes__icono">
+                    <img src="assets/img/texto.png" alt="" class="empresa__imagenes__logo">
+                </div>
+                <div class="empresa__informacion">
+                    <ul class="empresa__informacion__lista">
+                        <li class="items">
+                            <a href="#" id="iluminacion">Quienes somos</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Política de privacidad</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Programa de fidelidad</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Nuestras Tiendas</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Quiero ser franquiciado</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Anúncie aquí</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="empresa__contacto">
+                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                        <label class="empresa__contacto__form__label">Hable con nosotros</label>
+                        <div class="input-container">
+                            <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
+                                placeholder="Nombre" required pattern="[\s\S]{10,40}" data-tipo="empresa">
+                            <label class="input-label" for="empresa"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <textarea name="mensaje" id="mensaje" cols="1" rows="1"
+                                class="empresa__contacto__form__textarea" type="text" placeholder="Escribe tu mensaje"
+                                required minlength="1" maxlength="140"
+                                title="Este es el title de text area">Mi mensaje</textarea>
+                            <label class="input-label" for="mensaje"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="empresa__contacto__form__wrapper__button">
+                            <button class="empresa__contacto__form__button" id="enviar">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Metal_Blue</p>
+                <p>2023</p>
+            </div>
+        </section>
+    </div>
+    <script src="../controllers/app.js" type="module"></script>
+    <script src="../controllers/client.controller.js" type="module"></script>
+    <!--<script src="../controllers/client.Buscar.js" type="module"></script>-->
+
+</body>
+
+</html>
+<script>
+    
+</script>

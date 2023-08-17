@@ -1,0 +1,110 @@
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    /*BANNER*/
+.banner{
+    width: 100%;
+    display: flex;
+    background: url('../img/banner-image.png') no-repeat center / cover;
+    justify-content: center;
+    height: 30rem;
+}
+
+.banner-imagen{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.banner-imagen__titulo{
+    color: white;
+    /* font-size: 3.8rem; */
+    font-weight: bold;
+    font-family: 'Arial';
+    margin: 0rem 0 0.3rem 0;
+    font-size: x-large;
+    width: 100%;
+}
+
+.banner-imagen__subtitulo{
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: 'Arial';
+    margin: 1rem 0 0.5rem 0;
+    width: 100%;
+}
+
+.banner-imagen__link{
+    background-color: #199319;
+    color: white;
+    padding: 7.5px 12.5px;
+    text-decoration: none;
+    border: 0.2rem solid rgb(7, 53, 4);
+    border-radius: 0.3rem;
+    margin: 0.3rem 0 1rem 0;
+    font-weight: lighter;
+}
+
+.banner-imagen__link:hover{
+    background-color: #199319;
+    border: 0;
+}
+}
+
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+    /*BANNER*/
+.banner{
+    width: 100%;
+    display: flex;
+    background: url('../img/banner-image.png') no-repeat center / cover;
+    justify-content: center;
+    height: 30rem;
+    position: relative;
+}
+
+.banner-imagen{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.banner-imagen__titulo{
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Arial';
+    margin: 0rem 0 0.rem 0;
+}
+
+.banner-imagen__subtitulo{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Arial';
+    margin: 2rem 0 0.2rem 0;
+}
+
+.banner-imagen__link{
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 0.2rem solid rgb(7, 53, 4);
+    border-radius: 0.3rem;
+    margin: 1.5rem 0 2rem 0;
+    font-weight: lighter;
+}
+
+.banner-imagen__link:hover{
+    background-color: #199319;
+    border: 0;
+}
+}
+
+/*D_E_S_K_T_O_P*/
+
