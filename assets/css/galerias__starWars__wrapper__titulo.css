@@ -1,0 +1,709 @@
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+
+    /*GALERIAS*/
+    .galerias {
+        background-color: rgb(107, 200, 13);
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /*STAR WARS*/
+    .starWars {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /*starWars__wrapper*/
+    .starWars__wrapper {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*starWars__wrapper__titulo*/
+    .starWars__wrapper__titulo {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .starWars__titulo{
+        width:50%;
+        color: #464646;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Taoma';
+    }
+
+    .starWars__wrapper__titulo__icono{
+        width:50%;
+       display:flex;
+        flex-direction:row;
+       align-items:center;
+        justify-content:flex-end;
+        background-color: #e1e9eb;
+    }
+
+    .starWars__titulo__icono{
+        width:35%;
+        color: blue;
+        font-weight: bold;
+        font-size: small;
+        font-family: 'Normal';
+    }
+
+    .starWars__titulo__icono:hover{
+        font-family:Arial;
+        color:rgb(97, 67, 133);
+        font-weight:bold;
+    }
+
+    /*starWars__titulo__icono__link*/
+    .starWars__titulo__icono__link {
+        width: 100%;
+        background-color: #223094;
+        color: white;
+        padding: 0.1rem;
+        text-decoration: none;
+        border: 0.1rem solid #223094;
+        border-radius: 0.2rem;
+        margin: 0.2rem 0 0.2rem 0;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .starWars__titulo__icono__link:hover {
+        background-color: #223094;
+        border: 0;
+    }
+
+    /*Galeria*/
+    .starWars__galeria {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+
+    /*caja*/
+    .starWars__galeria__box {
+        height: 15rem;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        width: 48%;
+        /* width: 23.6%;   */
+        flex-direction: row;
+    }
+
+    /*caja oculta*/
+    .starWars__galeria__box__ocultar {
+        display: none;
+    }
+
+    /*lista*/
+    .starWars__galeria__box__lista {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item imagen*/
+    .starWars__galeria__box__lista__item-imagen {
+        background-color: blueviolet;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*tamaño imagen*/
+    .tarWars__galeria__box__lista__item-imagen__tamaño {
+        width: 100%;
+
+    }
+
+    /*item titulo*/
+    .starWars__galeria__box__lista__item-titulo>h3 {
+        font-size: large;
+        margin: 0.5rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item subtitulo*/
+    .starWars__galeria__box__lista__item-tsubtitulo>h3 {
+        font-size: larger;
+        font-weight: bold;
+        margin: 0.5rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item link*/
+    .starWars__galeria__box__lista__item-link {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Normal';
+        position: relative;
+        z-index: 1;
+    }
+
+     /* .starWars__titulo__icono__link */
+     .starWars__galeria__box__lista__item-link>a:hover{
+        color: rgb(206, 40, 11);
+        font-family: 'Montserrat';
+        font-size: small;
+        transition: 3000ms;
+    }
+
+    /*starWars__galeria__box__lista__item-botones*/
+    .starWars__galeria__box__lista__item-botones{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        box-sizing: border-box;
+        background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+     }
+      
+     /*starWars__galeria__box__lista__botones__item-button*/
+     .starWars__galeria__box__lista__botones__item-button{
+         box-sizing: border-box;
+         width: 50%;
+         display: flex;
+         align-items: flex-start;
+         justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-button>button{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+     }
+     .starWars__galeria__box__lista__botones__item-button>button>img{
+        width: 50%;
+     }
+
+     /*starWars__galeria__box__lista__botones__item-enlace*/
+     .starWars__galeria__box__lista__botones__item-enlace{
+        box-sizing: border-box;
+        width: 50%;
+        display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-enlace>a{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-enlace>a>img{
+        width: 30%;
+     }
+}
+
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+
+    /*GALERIAS*/
+    .galerias {
+        background-color: rgb(107, 200, 13);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /*STAR WARS*/
+    .starWars {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /*starWars__wrapper*/
+    .starWars__wrapper {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+     /*starWars__wrapper__titulo*/
+     .starWars__wrapper__titulo {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    /*Titulo*/
+    .starWars__titulo {
+        color: #464646;
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: 'Taoma';
+        width: 50%;
+    }
+
+    /*starWars__wrapper__titulo__icono*/
+    .starWars__wrapper__titulo__icono {
+        width: 50%;
+        background-color: #e1e9eb;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    /*starWars__titulo__icono*/
+    .starWars__titulo__icono {
+        color: blue;
+        font-weight: bold;
+        font-size: larger;
+        font-family: 'Normal';
+         width:25%;
+    }
+
+    .starWars__titulo__icono:hover{
+        font-family:Arial;
+        color:rgb(97, 67, 133);
+        font-weight:bold;
+        font-size: large;
+    }
+
+    /*starWars__titulo__icono__link*/
+    .starWars__titulo__icono__link {
+        background-color: #223094;
+        color: white;
+        padding: 0.1rem;
+        text-decoration: none;
+        border: 0.2rem solid #223094;
+        border-radius: 0.3rem;
+        margin: 0.5rem 0 0.5rem 0;
+        font-weight: lighter;
+        width: 50%;
+        text-align: center;
+    }
+    .starWars__titulo__icono__link:hover {
+        background-color: #223094;
+        border: 0;
+    }
+
+    /*Galeria*/
+    .starWars__galeria {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    /*caja*/
+    .starWars__galeria__box {
+        height: 24%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        width: 24%;  
+        flex-direction: row;
+        padding-top: 0.2rem;
+    }
+
+    /*caja oculta*/
+    .starWars__galeria__box__ocultar {
+        display: none;
+    }
+
+    /*lista*/
+    .starWars__galeria__box__lista {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item imagen*/
+    .starWars__galeria__box__lista__item-imagen {
+        background-color: blueviolet;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*tamaño imagen*/
+    .tarWars__galeria__box__lista__item-imagen__tamaño {
+        width: 100%;
+    }
+
+    /*item titulo*/
+    .starWars__galeria__box__lista__item-titulo>h3 {
+        font-size: large;
+        margin: 0.5rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item subtitulo*/
+    .starWars__galeria__box__lista__item-tsubtitulo>h3 {
+        font-size: larger;
+        font-weight: bold;
+        margin: 0.5rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+   /*item link*/
+   .starWars__galeria__box__lista__item-link {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Normal';
+    position: relative;
+    z-index: 1;
+}
+
+     /* .starWars__titulo__icono__link */
+     .starWars__galeria__box__lista__item-link>a:hover{
+        color: rgb(206, 40, 11);
+        font-family: 'Montserrat';
+        font-size: small;
+        transition: 3000ms;
+    }
+
+    /*starWars__galeria__box__lista__item-botones*/
+    .starWars__galeria__box__lista__item-botones{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        box-sizing: border-box;
+        background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+     }
+
+      
+     /*starWars__galeria__box__lista__botones__item-button*/
+     .starWars__galeria__box__lista__botones__item-button{
+         box-sizing: border-box;
+         width: 50%;
+         display: flex;
+         align-items: flex-start;
+         justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-button>button{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+     }
+     .starWars__galeria__box__lista__botones__item-button>button>img{
+        width: 50%;
+     }
+
+     /*starWars__galeria__box__lista__botones__item-enlace*/
+     .starWars__galeria__box__lista__botones__item-enlace{
+        box-sizing: border-box;
+        width: 50%;
+        display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-enlace>a{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-enlace>a>img{
+        width: 30%;
+     }
+}
+
+
+/*D_E_S_K_T_O_P*/
+@media screen and (min-width:769px) {
+
+    /*GALERIAS*/
+    .galerias {
+        background-color: rgb(107, 200, 13);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /*STAR WARS*/
+    .starWars {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /*starWars__wrapper*/
+    .starWars__wrapper {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*starWars__wrapper__titulo*/
+    .starWars__wrapper__titulo {
+        background-color:white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*Titulo*/
+    .starWars__titulo {
+        color: #464646;
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: 'Taoma';
+        width: 55%;
+    }
+
+    /*starWars__wrapper__titulo__icono*/
+    .starWars__wrapper__titulo__icono {
+        width: 50%;
+        background-color: #e1e9eb;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        box-sizing: border-box;
+    }
+
+    .starWars__titulo__icono {
+        color: blue;
+        font-weight: bold;
+        font-size: large;
+        font-family: 'Normal';
+    }
+
+    .starWars__titulo__icono:hover{
+        font-family:Arial;
+        color:rgb(97, 67, 133);
+        font-weight:bold;
+        font-size: medium;
+    }
+
+    /*starWars__titulo__icono__link*/
+    .starWars__titulo__icono__link {
+        background-color: #223094;
+        color: white;
+        padding: 0.1rem;
+        text-decoration: none;
+        border: 0.2rem solid #223094;
+        border-radius: 0.3rem;
+        margin: 0.5rem 0 0.5rem 0;
+        font-weight: lighter;
+        width: 50%;
+        text-align: center;
+    }
+    .starWars__titulo__icono__link:hover {
+        background-color: #223094;
+        border: 0;
+    }
+
+    /*Galeria*/
+    .starWars__galeria {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.3%;
+        padding-bottom: 0.7rem;
+    }
+
+    /*caja*/
+    .starWars__galeria__box {
+        height: 24%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        width: 24%;  
+        flex-direction: row;
+        padding-top: 0rem;
+    }
+
+    /*caja oculta*/
+    .starWars__galeria__box__ocultar {
+        display: none;
+    }
+
+    /*lista*/
+    .starWars__galeria__box__lista {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item imagen*/
+    .starWars__galeria__box__lista__item-imagen {
+        background-color: blueviolet;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*tamaño imagen*/
+    .tarWars__galeria__box__lista__item-imagen__tamaño {
+        width: 100%;
+
+    }
+
+    /*item titulo*/
+    .starWars__galeria__box__lista__item-titulo>h3 {
+        font-size: large;
+        margin: 0.5rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item subtitulo*/
+    .starWars__galeria__box__lista__item-tsubtitulo>h3 {
+        font-size: larger;
+        font-weight: bold;
+        margin: 0.5rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*item link*/
+    .starWars__galeria__box__lista__item-link {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Normal';
+        position: relative;
+        z-index: 1;
+    }
+     /* .starWars__titulo__icono__link */
+     .starWars__galeria__box__lista__item-link>a:hover{
+        color: rgb(206, 40, 11);
+        font-family: 'Montserrat';
+        font-size: small;
+        transition: 3000ms;
+    }
+
+    /*.starWars__galeria__box__lista__item-botones*/
+    .starWars__galeria__box__lista__item-botones{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        box-sizing: border-box;
+        background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+     }
+
+     .starWars__galeria__box__lista__botones__item-button{
+         box-sizing: border-box;
+         width: 50%;
+         display: flex;
+         align-items: flex-start;
+         justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-button>button{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+     }
+     .starWars__galeria__box__lista__botones__item-button>button>img{
+        width: 50%;
+     }
+
+
+     .starWars__galeria__box__lista__botones__item-enlace{
+        box-sizing: border-box;
+        width: 50%;
+        display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-enlace>a{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .starWars__galeria__box__lista__botones__item-enlace>a>img{
+        width: 30%;
+     }
+}

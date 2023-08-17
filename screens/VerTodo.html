@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css  -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/bases.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
-    <link rel="stylesheet" href="assets/css/banner.css">
-    <link rel="stylesheet" href="assets/css/starWars.css">
-    <link rel="stylesheet" href="assets/css/empresa.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/bases.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/menu__verTodo.css">
+    <link rel="stylesheet" href="../assets/css/banner.css">
+    <link rel="stylesheet" href="../assets/css/ocultar__Banner.css">
+    <link rel="stylesheet" href="../assets/css/starWars.css">
+    <link rel="stylesheet" href="../assets/css/galerias__starWars__wrapper__titulo.css">
+    <link rel="stylesheet" href="../assets/css/ocultar__starWars__wrapper__titulo.css">
+    <link rel="stylesheet" href="../assets/css/empresa.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <!-- Fuente del Proyecto Releway -->
     <link href="https://fonts.googleapis.com2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title>Ecommerce</title>
+    <title>Ver todo</title>
 </head>
 
 <body>
@@ -23,13 +27,13 @@
     <div class="container">
         <section class="menu">
             <header class="menu__encabezado">
-                <img class="menu__icono" src="assets/img/icono.png" alt="Logo">
-                <img class="menu__imagen" src="assets/img/texto.png" alt="Imagen">
+                <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
+                <img class="menu__imagen" src="../assets/img/texto.png" alt="Imagen">
             </header>
             <nav class="menu__navegador">
-                <form action="" class="menu__navegador__form" id="menu__navegador__form" name="menu__navegador__form">
+                <form action="" class="menu__navegador__form">
                     <div class="menu__navegador__form__wrapper">
-                        <input type="search" id="search" name="search" placeholder="Que deseas buscar?"  
+                        <input type="search" placeholder="Que deseas buscar?"
                             class="menu__navegador__form__wrapper__input">
                         <svg xmlns="http://www.w3.org/2000/svg" class="menu__navegador__form__wrapper__icon"
                             viewBox="0 0 20 20" fill="currentColor">
@@ -47,21 +51,20 @@
             <div class="banner-imagen">
                 <h1 class="banner-imagen__titulo">Febrero Promocional</h1>
                 <h2 class="banner-imagen__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <a class="banner-imagen__link" href="#idStarWars">Ver consolas</a>
+                <a class="banner-imagen__link" href="#">Ver consolas</a>
             </div>
         </section>
         <!-- Sección Galerias -->
         <section class="galerias">
             <!-- Sección StarWars -->
-            <section class="starWars" id="idStarWars">
+            <section class="starWars">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo">
-                        <h2 class="starWars__titulo">Star Wars</h2>
+                        <h2 class="starWars__titulo">Todos los productos</h2>
                         <div class="starWars__wrapper__titulo__icono">
-                            <a class="starWars__titulo__icono" href="screens/VerTodo.html">Ver todo</a>
-                            <img src="assets/img/flecha-correcta (1).png">
+                            <a href="FormularioProducto.html" class="starWars__titulo__icono__link">Agregar producto</a>
                         </div>
-                    </div>
+                    </div>  
                     <div class="starWars__galeria" data-product>
                         
                     </div>
@@ -70,29 +73,27 @@
             <!-- Sección Consolas -->
             <section class="starWars">
                 <div class="starWars__wrapper">
-                    <div class="starWars__wrapper__titulo">
-                        <h2 class="starWars__titulo">Consolas</h2>
+                    <div class="starWars__wrapper__titulo" id="starWars__wrapper__titulo__ocultar">
+                        <h2 class="starWars__titulo"></h2>
                         <div class="starWars__wrapper__titulo__icono">
-                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
-                            <img src="assets/img/flecha-correcta (1).png">
+                            <a href="FormularioProducto.html" class="starWars__titulo__icono__link">Agregar producto</a>
                         </div>
-                    </div>
+                    </div>  
                     <div class="starWars__galeria" data-product2>
                         
                     </div>
                 </div>
-            </section> 
+            </section>
             <!-- Sección Diversos -->
             <section class="starWars">
                 <div class="starWars__wrapper">
-                    <div class="starWars__wrapper__titulo">
-                        <h2 class="starWars__titulo">Diversos</h2>
+                    <div class="starWars__wrapper__titulo" id="starWars__wrapper__titulo__ocultar">
+                        <h2 class="starWars__titulo"></h2>
                         <div class="starWars__wrapper__titulo__icono">
-                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
-                            <img src="assets/img/flecha-correcta (1).png">
+                            <a href="FormularioProducto.html" class="starWars__titulo__icono__link">Agregar producto</a>
                         </div>
-                    </div>
-                    <div class="starWars__galeria oscuro" data-product3>
+                    </div>  
+                    <div class="starWars__galeria" data-product3>
                         
                     </div>
                 </div>
@@ -108,7 +109,7 @@
                 <div class="empresa__informacion">
                     <ul class="empresa__informacion__lista">
                         <li class="items">
-                            <a href="#" id="iluminacion">Quienes somos</a>
+                            <a href="#">Quienes somos</a>
                         </li>
                         <li class="items">
                             <a href="#">Política de privacidad</a>
@@ -137,10 +138,8 @@
                             <span class="input-message-error"></span>
                         </div>
                         <div class="input-container">
-                            <textarea name="mensaje" id="mensaje" cols="1" rows="1"
-                                class="empresa__contacto__form__textarea" type="text" placeholder="Escribe tu mensaje"
-                                required minlength="1" maxlength="140"
-                                title="Este es el title de text area">Mi mensaje</textarea>
+                            <textarea name="mensaje" id="mensaje" cols="1" rows="1" class="empresa__contacto__form__textarea" type="text"
+                            placeholder="Escribe tu mensaje" required minlength="1" maxlength="140" title="Este es el title de text area">Mi mensaje</textarea>
                             <label class="input-label" for="mensaje"></label>
                             <span class="input-message-error"></span>
                         </div>
@@ -158,14 +157,8 @@
                 <p>2023</p>
             </div>
         </section>
-    </div>
-    <script src="../controllers/app.js" type="module"></script>
-    <script src="../controllers/client.controller.js" type="module"></script>
-    <!--<script src="../controllers/client.Buscar.js" type="module"></script>-->
-
+        <script src="../controllers/app.js"  type="module"></script>
+        <script src="../controllers/client.controller.js" type="module"></script>
 </body>
 
 </html>
-<script>
-    
-</script>

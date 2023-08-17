@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css  -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/bases.css">
+    <link rel="stylesheet" href="../assets/css/menuProducto.css">
+    <!-- <link rel="stylesheet" href="css/formulario.css"> -->
+    <link rel="stylesheet" href="../assets/css/banner.css">
+    <link rel="stylesheet" href="../assets/css/formularioProducto.css">
+    <link rel="stylesheet" href="../assets/css/empresaProducto.css">
+    <link rel="stylesheet" href="../assets/css/footerProducto.css">
+    <!-- Fuente del Proyecto Releway -->
+    <link href="https://fonts.googleapis.com2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Formulario producto</title>
+</head>
+
+<body>
+    <!-- Sección del Menú -->
+    <div class="container">
+        <section class="menu">
+            <header class="menu__encabezado">
+                <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
+                <img class="menu__imagen" src="../assets/img/texto.png" alt="Logo">
+            </header>
+            <nav class="menu__navegador">
+                <form action="" class="menu__navegador__form">
+                    <div class="menu__navegador__form__wrapper">
+                        <input type="search" placeholder="Que deseas buscar?"
+                            class="menu__navegador__form__wrapper__input">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu__navegador__form__wrapper__icon"
+                            viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <button class="menu__navegador__form__button">Menú Administrador</button>
+                </form>
+            </nav>
+        </section>
+        <!-- Sección formulario -->
+        <section class="formulario">
+            <div class="formulario__wrapper">
+                <form action="#" class="formulario__wrapper__form" data-form>
+                    <label for="" class="formulario__wrapper__form__label">Agregar nuevo producto</label>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container--invalid-formulario-producto">
+                            <input name="url" id="url" type="url" class="formulario__wrapper__form__input"
+                                placeholder="URL de imagen" required data-tipo="link"
+                                pattern="https?://([a-zA-Z0-9]([^ @&%$\\\/\(\)=?¿!.,:;]|\\d)*[a-zA-Z0-9][\.]){1,2}[a-zA-Z]{2,4}((?<=[a-zA-Z]{2,4})[\.][a-zA-Z]{2})?/?((?<=/)(([^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]|\d)+[\/]?)*(#(?<=#)[^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]*)?(\?(?<=\?)([^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+[=][^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+(&(?<=&)[^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+[=][^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*\|]+)*))?)?"
+                                data-url>
+                            <label class="input-label--error-formulario-producto" for="url"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container--invalid-formulario-producto">
+                            <select name="grupo" id="grupo" class="formulario__wrapper__form__lista" data-grupo>
+                                <option value="Star Wars">Star Wars</option>
+                                <option value="Consolas">Consolas</option>
+                                <option value="Diversos">Diversos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container--invalid-formulario-producto">
+                            <input name="nombre" id="nombre" type="text" class="formulario__wrapper__form__input"
+                                placeholder="Nombre del producto" required pattern="^[a-zA-Z0-9 ]+$"
+                                data-tipo="renombre" 
+                                data-nombre>
+                            <label class="input-label--error-formulario-producto" for="nombre"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container--invalid-formulario-producto">
+                            <input name="precio" id="precio" type="number" class="formulario__wrapper__form__input"
+                                placeholder="Precio del producto" required pattern="/d+[0-9]" data-tipo="costo" 
+                                data-precio>
+                            <label class="input-label--error-formulario-producto" for="numero"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </div>
+                    <div class="formulario__wrapper__formulario__producto__principal">
+                        <div class="input-container--invalid-formulario-producto">
+                            <textarea name="descripcion" id="descripcion" class="formulario__wrapper__form__textarea"
+                                placeholder="Descripción del producto" required minlength="1" maxlength="150" cols="1"
+                                rows="1" title="Este es el title de text area" type="text"  
+                                data-descripcion></textarea>
+                            <label class="input-label--error-formulario-producto" for="descripcion"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </div>
+                    <button class="formulario__wrapper__form__button">Agregar produto</button>
+                </form>
+            </div>
+        </section>
+        <!-- Sección Empresa -->
+        <section class="empresa">
+            <div class="wrapper">
+                <div class="empresa__imagenes">
+                    <img src="img/icono.png" alt="" class="empresa__imagenes__icono">
+                    <img src="img/texto.png" alt="" class="empresa__imagenes__logo">
+                </div>
+                <div class="empresa__informacion">
+                    <ul class="empresa__informacion__lista">
+                        <li class="items">
+                            <a href="#">Quienes somos</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Política de privacidad</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Programa de fidelidad</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Nuestras Tiendas</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Quiero ser franquiciado</a>
+                        </li>
+                        <li class="items">
+                            <a href="#">Anúncie aquí</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="empresa__contacto">
+                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                        <label class="empresa__contacto__form__label">Hable con nosotros</label>
+                        <div class="input-container">
+                            <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
+                                placeholder="Nombre" required pattern="[\s\S]{10,40}" data-tipo="empresa">
+                            <label class="input-label" for="empresa"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <textarea name="mensaje" id="mensaje" cols="1" rows="1"
+                                class="empresa__contacto__form__textarea" type="text" placeholder="Escribe tu mensaje"
+                                required minlength="1" maxlength="140"
+                                title="Este es el title de text area">Mi mensaje</textarea>
+                            <label class="input-label" for="mensaje"></label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="empresa__contacto__form__wrapper__button">
+                            <button class="empresa__contacto__form__button" id="enviar">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollador por Metal_Blue</p>
+                <p>2023</p>
+            </div>
+        </section>
+    </div>
+    <script src="../controllers/app.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/registro.controller.js"></script>
+</body>
+
+</html>
+

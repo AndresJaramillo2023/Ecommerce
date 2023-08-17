@@ -1,0 +1,300 @@
+{
+  "perfil":
+  [
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "xbox-one-1",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "1"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "xbox-one-2",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "2"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "xbox-one-3",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "3"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "xbox-one-4",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "4"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "playstation-1",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "5"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "playstation-2",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "6"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "playstation-3",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "7"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "playstation-4",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "8"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "wii-1",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "9"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "wii-2",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "10"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "wii-3",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "11"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Star Wars",
+      "nombre": "wii-4",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "12"
+    }
+  ],
+  "perfil2":
+  [
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "xbox-one-1",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "13"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "xbox-one-2",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "14"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "xbox-one-3",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "15"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "xbox-one-4",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "16"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "playstation-1",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "17"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "playstation-2",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "18"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "playstation-3",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "18"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "playstation-4",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "19"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "wii-1",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "20"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "wii-2",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "21"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "wii-3",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "22"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Consolas",
+      "nombre": "wii-4",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "23"
+    }
+  ],
+  "perfil3":
+  [
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "xbox-one-1",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "24"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "xbox-one-2",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "25"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "xbox-one-3",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "26"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "xbox-one-4",
+      "precio": "1200000",
+      "descripcion": "consola de videojuegos",
+      "id": "27"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "playstation-1",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "28"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "playstation-2",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "29"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "playstation-3",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "30"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "playstation-4",
+      "precio": "1000000",
+      "descripcion": "consola de videojuegos",
+      "id": "31"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "wii-1",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "32"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "wii-2",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "33"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "wii-3",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "34"
+    },
+    {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2167454207/display_1500/stock-photo-xbox-series-s-and-series-x-on-white-background-jun-sao-paulo-brazil-2167454207.jpg",
+      "categoria": "Diversos",
+      "nombre": "wii-4",
+      "precio": "900000",
+      "descripcion": "consola de videojuegos",
+      "id": "35"
+    }
+  ]
+}
+

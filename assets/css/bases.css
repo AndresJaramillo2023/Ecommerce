@@ -31,7 +31,7 @@ body {
 
 .container {
     width: 100%;
-    background-color: rgb(177, 11, 14);
+    background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
     display: flex;
     align-items: center;
     flex-direction: column;
