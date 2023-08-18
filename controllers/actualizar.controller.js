@@ -66,13 +66,13 @@ formulario.addEventListener("submit", (event) => {
         clientServices
         .crearCliente1(varUrl, categoria, varNombre, varPrecio, varDescripcion)
         .then(() => {
-            window.location.href = "./index.html";
+            window.location.href = "../index.html";
         })
        .catch(err => console.log(err));
        window.location.reload()
     } else {
         clientServices.actualizarCliente(varUrl, categoria, varNombre, varPrecio, varDescripcion, id).then(() => {
-        window.location.href = "./index.html";
+        window.location.href = "../index.html";
         });
     }
 });
