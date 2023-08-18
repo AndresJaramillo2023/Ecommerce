@@ -1,1 +1,20 @@
+Como hacer actualizaciones a un repositorio remoto ya existente en Github
+https://www.youtube.com/watch?v=_GFgMjjWSQQ
+
+
+link del sitio web en Github
 https://andresjaramillo2023.github.io/Ecommerce/
+
+
+Repositorio de la API-activa
+git remote add origin https://github.com/AndresJaramillo2023/Fake-API.git
+
+
+Tutorial de como hacer la API-activa en Vercel
+https://www.youtube.com/watch?v=Tjl3HgxvMWM&list=LL&index=1
+
+
+NOTA: Tengo errores en el layout, porque si se incrementa el número de productos 
+en cualquier galeria, estos no aparecen en el sitio web, aunque si en el archivo
+json.
+Bueno esto haciendo pruebas desde localhost + git + json server
