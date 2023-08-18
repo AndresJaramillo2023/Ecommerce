@@ -106,7 +106,7 @@ var eliminarClienteSimple = (id, idCategoria, idNombre) => {
       break;
   }
 
-  return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json?/{variable1}/${id}`, {
+  return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json?/${variable1}/${id}`, {
     method: "DELETE",
 
   }).then(alert("Producto eliminado satisfactoriamente"));
