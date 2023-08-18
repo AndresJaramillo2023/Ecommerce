@@ -129,7 +129,7 @@ const detalleCliente = (id,categoria) => {
       break;
   }
 
-  return fetch(`https://fake-api-pi.vercel.app/${variablePerfil}?id=${id}`).then((respuesta) =>
+  return fetch(`https://fake-api-pi.vercel.app/${variablePerfil}/${id}`).then((respuesta) =>
     respuesta.json())
     .then((respuesta) => respuesta)
     .catch((err) => console.log(err));
@@ -151,7 +151,7 @@ const actualizarCliente = (url, categoria, nombre, precio, descripcion, id) => {
       alert("Error, en actualizar cliente");
       break;
   }
-  return fetch(`https://fake-api-pi.vercel.app/${perfil}?id=${id}`, {
+  return fetch(`https://fake-api-pi.vercel.app/${perfil}/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json"
