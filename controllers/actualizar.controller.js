@@ -34,7 +34,6 @@ const obtenerInformacion = async () => {
     } catch (error) {
         alert("Errores al precargar los datos en el archivo actuliazar.controller.js")
     }
-   window.location.reload()
 };
 
 obtenerInformacion();
