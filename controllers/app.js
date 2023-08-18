@@ -1,9 +1,9 @@
-import { valida } from "./validaciones.js";
-import { validaAreaDeTexto } from "./validaciones.js";
-import { validaLogin } from "./validacionesLogin.js";
-import { validaAreaDeTextoLogin } from "./validacionesLogin.js";
-import { validaProducto } from "./validacionesFormularioProducto.js";
-import { validaAreaDeTextoProducto } from "./validacionesFormularioProducto.js";
+import { valida } from "validaciones.js";
+import { validaAreaDeTexto } from "validaciones.js";
+import { validaLogin } from "validacionesLogin.js";
+import { validaAreaDeTextoLogin } from "validacionesLogin.js";
+import { validaProducto } from "validacionesFormularioProducto.js";
+import { validaAreaDeTextoProducto } from "validacionesFormularioProducto.js";
 
 //PARA_EMPRESA
 //PARA INPTUS
