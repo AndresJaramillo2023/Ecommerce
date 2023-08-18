@@ -28,13 +28,13 @@ const obtenerInformacion = async () => {
             varNombre.value = perfil.nombre;
             varPrecio.value = perfil.precio;
             varDescripcion.value = perfil.descripcion;
-            window.location.reload()
         } else {
             throw new Error(); //Activamos el error
         }
     } catch (error) {
         alert("Errores al precargar los datos en el archivo actuliazar.controller.js")
     }
+   window.location.reload()
 };
 
 obtenerInformacion();
