@@ -57,7 +57,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}/${id}`, {
+        return fetch(`https://fake-api-pi.vercel.app/${variable}?id=${id}`, {
           method: "DELETE",
 
         })
@@ -67,7 +67,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil2';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}/${id}`, {
+        return fetch(`https://fake-api-pi.vercel.app/${variable}?id=${id}`, {
           method: "DELETE",
 
         })
@@ -77,7 +77,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil3';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}/${id}`, {
+        return fetch(`https://fake-api-pi.vercel.app/${variable}?id=${id}`, {
           method: "DELETE",
 
         })
@@ -106,7 +106,7 @@ var eliminarClienteSimple = (id, idCategoria, idNombre) => {
       break;
   }
 
-  return fetch(`https://fake-api-pi.vercel.app/${variable1}/${id}`, {
+  return fetch(`https://fake-api-pi.vercel.app/${variable1}?id=${id}`, {
     method: "DELETE",
 
   }).then(alert("Producto eliminado satisfactoriamente"));
