@@ -6,16 +6,16 @@
 //Upddate- PUT/PATCH
 //Delete - DELETE
 //FeTch API
-const listaClientes1 = () => fetch("https://fake-api-pi.vercel.app/perfil").then((respuesta) => respuesta.json());
-const listaClientes2 = () => fetch("https://fake-api-pi.vercel.app/perfil2").then((respuesta) => respuesta.json());
-const listaClientes3 = () => fetch("https://fake-api-pi.vercel.app/perfil3").then((respuesta) => respuesta.json());
+const listaClientes1 = () => fetch("https://andresjaramillo2023.github.io/Ecommerce/data.json/perfil").then((respuesta) => respuesta.json());
+const listaClientes2 = () => fetch("https://andresjaramillo2023.github.io/Ecommerce/data.json/perfil2").then((respuesta) => respuesta.json());
+const listaClientes3 = () => fetch("https://andresjaramillo2023.github.io/Ecommerce/data.json/perfil3").then((respuesta) => respuesta.json());
 
 
 var crearCliente1 = "";
 crearCliente1 = (url, categoria, nombre, precio, descripcion) => {
   switch (categoria) {
     case 'Star Wars':
-      return fetch("https://fake-api-pi.vercel.app/perfil", { //informaciòn del perfil especìfico que quiero recibir
+      return fetch("https://andresjaramillo2023.github.io/Ecommerce/data.json/perfil", { //informaciòn del perfil especìfico que quiero recibir
         method: "POST", //metodo poner
         headers: {
           "Content-Type": "application/json", //tipo de archivo
@@ -24,7 +24,7 @@ crearCliente1 = (url, categoria, nombre, precio, descripcion) => {
       });
       break;
     case 'Consolas':
-      return fetch("https://fake-api-pi.vercel.app/perfil2", { //informaciòn del perfil especìfico que quiero recibir
+      return fetch("https://andresjaramillo2023.github.io/Ecommerce/data.json/perfil2", { //informaciòn del perfil especìfico que quiero recibir
         method: "POST", //metodo poner
         headers: {
           "Content-Type": "application/json", //tipo de archivo
@@ -33,7 +33,7 @@ crearCliente1 = (url, categoria, nombre, precio, descripcion) => {
       });
       break;
     case 'Diversos':
-      return fetch("https://fake-api-pi.vercel.app/perfil3", { //informaciòn del perfil especìfico que quiero recibir
+      return fetch("https://andresjaramillo2023.github.io/Ecommerce/data.json/perfil3", { //informaciòn del perfil especìfico que quiero recibir
         method: "POST", //metodo poner
         headers: {
           "Content-Type": "application/json", //tipo de archivo
@@ -57,7 +57,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}/${id}`, {
+        return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json/${variable}/${id}`, {
           method: "DELETE",
 
         })
@@ -67,7 +67,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil2';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}/${id}`, {
+        return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json/${variable}/${id}`, {
           method: "DELETE",
 
         })
@@ -77,7 +77,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil3';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}/${id}`, {
+        return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json/${variable}/${id}`, {
           method: "DELETE",
 
         })
@@ -106,7 +106,7 @@ var eliminarClienteSimple = (id, idCategoria, idNombre) => {
       break;
   }
 
-  return fetch(`https://fake-api-pi.vercel.app/{variable1}/${id}`, {
+  return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json/{variable1}/${id}`, {
     method: "DELETE",
 
   }).then(alert("Producto eliminado satisfactoriamente"));
@@ -129,7 +129,7 @@ const detalleCliente = (id,categoria) => {
       break;
   }
 
-  return fetch(`https://fake-api-pi.vercel.app/${variablePerfil}/${id}`).then((respuesta) =>
+  return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json/${variablePerfil}/${id}`).then((respuesta) =>
     respuesta.json())
     .then((respuesta) => respuesta)
     .catch((err) => console.log(err));
@@ -151,7 +151,7 @@ const actualizarCliente = (url, categoria, nombre, precio, descripcion, id) => {
       alert("Error, en actualizar cliente");
       break;
   }
-  return fetch(`https://fake-api-pi.vercel.app/${perfil}/${id}`, {
+  return fetch(`https://andresjaramillo2023.github.io/Ecommerce/data.json/${perfil}/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json"
