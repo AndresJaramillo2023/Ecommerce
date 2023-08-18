@@ -1,4 +1,4 @@
-import { clientServices } from "services/client-service.js";
+import { clientServices } from "../services/client-service.js";
 
 const crearNuevaLinea = (url, categoria, nombre, precio, descripcion, id) => {
   const linea = document.createElement("div");
