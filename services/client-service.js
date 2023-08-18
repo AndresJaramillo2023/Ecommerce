@@ -57,7 +57,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}?id=${id}`, {
+        return fetch(`https://fake-api-pi.vercel.app/?${variable}?id=${id}`, {
           method: "DELETE",
 
         })
@@ -67,7 +67,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil2';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}?id=${id}`, {
+        return fetch(`https://fake-api-pi.vercel.app/?${variable}?id=${id}`, {
           method: "DELETE",
 
         })
@@ -77,7 +77,7 @@ var eliminarCliente = (id, idCategoria, idNombre) => {
       respuestaUsuario = confirm("¿Vas a eliminar el siguiente producto? \n Categoria: " + idCategoria + "\n Id: " + id + "\n Nombre: " + idNombre);
       if (respuestaUsuario) {
         variable = 'perfil3';
-        return fetch(`https://fake-api-pi.vercel.app/${variable}?id=${id}`, {
+        return fetch(`https://fake-api-pi.vercel.app/?${variable}?id=${id}`, {
           method: "DELETE",
 
         })
@@ -106,7 +106,7 @@ var eliminarClienteSimple = (id, idCategoria, idNombre) => {
       break;
   }
 
-  return fetch(`https://fake-api-pi.vercel.app/${variable1}?id=${id}`, {
+  return fetch(`https://fake-api-pi.vercel.app/?${variable1}?id=${id}`, {
     method: "DELETE",
 
   }).then(alert("Producto eliminado satisfactoriamente"));
@@ -129,7 +129,7 @@ const detalleCliente = (id,categoria) => {
       break;
   }
 
-  return fetch(`https://fake-api-pi.vercel.app/${variablePerfil}?id=${id}`).then((respuesta) =>
+  return fetch(`https://fake-api-pi.vercel.app/?${variablePerfil}?id=${id}`).then((respuesta) =>
     respuesta.json())
     .then((respuesta) => respuesta)
     .catch((err) => console.log(err));
@@ -151,7 +151,7 @@ const actualizarCliente = (url, categoria, nombre, precio, descripcion, id) => {
       alert("Error, en actualizar cliente");
       break;
   }
-  return fetch(`https://fake-api-pi.vercel.app/${perfil}?id=${id}`, {
+  return fetch(`https://fake-api-pi.vercel.app/?${perfil}?id=${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json"
