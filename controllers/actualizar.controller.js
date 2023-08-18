@@ -28,6 +28,7 @@ const obtenerInformacion = async () => {
             varNombre.value = perfil.nombre;
             varPrecio.value = perfil.precio;
             varDescripcion.value = perfil.descripcion;
+            window.location.reload()
         } else {
             throw new Error(); //Activamos el error
         }
