@@ -133,7 +133,7 @@
 
     /*item imagen*/
     .starWars__galeria__box__lista__item-imagen {
-        background-color: blueviolet;
+        background-color: white;
         width: 100%;
         position: relative;
         z-index: 1;
@@ -142,6 +142,8 @@
     /*tamaño imagen*/
     .tarWars__galeria__box__lista__item-imagen__tamaño {
         width: 100%;
+        height: 100px;
+        object-fit: contain;
 
     }
 
@@ -372,7 +374,7 @@
 
     /*item imagen*/
     .starWars__galeria__box__lista__item-imagen {
-        background-color: blueviolet;
+        background-color: white;
         width: 100%;
         position: relative;
         z-index: 1;
@@ -381,6 +383,8 @@
     /*tamaño imagen*/
     .tarWars__galeria__box__lista__item-imagen__tamaño {
         width: 100%;
+        height: 250px;
+        object-fit: contain;
     }
 
     /*item titulo*/
@@ -610,7 +614,7 @@
 
     /*item imagen*/
     .starWars__galeria__box__lista__item-imagen {
-        background-color: blueviolet;
+        background-color: white;
         width: 100%;
         position: relative;
         z-index: 1;
@@ -619,7 +623,8 @@
     /*tamaño imagen*/
     .tarWars__galeria__box__lista__item-imagen__tamaño {
         width: 100%;
-
+        height: 250px;
+        object-fit: contain;
     }
 
     /*item titulo*/

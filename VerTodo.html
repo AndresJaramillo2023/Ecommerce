@@ -27,8 +27,10 @@
     <div class="container">
         <section class="menu">
             <header class="menu__encabezado">
-                <img class="menu__icono" src="assets/img/icono.png" alt="Logo">
-                <img class="menu__imagen" src="assets/img/texto.png" alt="Imagen">
+                <a href="index.html" class="menu__encabezado__enlace">
+                <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
+                <img class="menu__imagen" src="../assets/img/texto.png" alt="Imagen">
+                </a>
             </header>
             <nav class="menu__navegador">
                 <form action="" class="menu__navegador__form">
@@ -42,7 +44,7 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </div>
-                    <a href="Login.html" class="menu__navegador__form__button">Login</a>
+                    <a href="screens/Login.html" class="menu__navegador__form__button">Login</a>
                 </form>
             </nav>
         </section>
@@ -51,7 +53,7 @@
             <div class="banner-imagen">
                 <h1 class="banner-imagen__titulo">Febrero Promocional</h1>
                 <h2 class="banner-imagen__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <a class="banner-imagen__link" href="#">Ver consolas</a>
+                <a class="banner-imagen__link" href="#idDiversos">Ver consolas</a>
             </div>
         </section>
         <!-- Sección Galerias -->
@@ -129,7 +131,7 @@
                     </ul>
                 </div>
                 <div class="empresa__contacto">
-                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                    <form action="screens/registro_concluido.html" class="empresa__contacto__form" data-form>
                         <label class="empresa__contacto__form__label">Hable con nosotros</label>
                         <div class="input-container">
                             <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
@@ -157,8 +159,8 @@
                 <p>2023</p>
             </div>
         </section>
-        <script src="controllers/app.js"  type="module"></script>
-        <script src="controllers/client.controller.js" type="module"></script>
+        <script src="../controllers/app.js"  type="module"></script>
+        <script src="../controllers/client.controller.js" type="module"></script>
 </body>
 
 </html>

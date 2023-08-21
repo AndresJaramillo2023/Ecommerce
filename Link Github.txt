@@ -1,6 +1,30 @@
 Como hacer actualizaciones a un repositorio remoto ya existente en Github
 https://www.youtube.com/watch?v=_GFgMjjWSQQ
 
+Pasos
+1.Ejecutar git Bach en el escritorio
+click derecho 
+Git Bash here
+2.Dirgirse a GitHub
+click en la viñeta de "Code"
+Tomar-copiar la url del repositorio remoto de Github, como por ejemplo
+https://github.com/AndresJaramillo2023/Ecommerce.git
+3.Dirigirse a la consola de git Bash 
+escribir los siguientes comandos:
+--Para clonar
+git clone https://github.com/AndresJaramillo2023/Ecommerce.git
+4.Hacer los respectivos cambios a cada carpeta y/o archivo
+5.Aplicar los cambios desde nuestra carpeta clonada hacia el repositorio remoto
+--Para dirigirse a la carpeta que hemos clonando
+cd + tab
+--Para agregar los cambios
+git add .
+--Para hacer el comentario
+git commit -m "Cambios"
+6.Revisar el repositorio de Github, para corobar los cambios hechos-
+
+
+
 
 link del sitio web en Github
 https://andresjaramillo2023.github.io/Ecommerce/
@@ -18,3 +42,11 @@ NOTA: Tengo errores en el layout, porque si se incrementa el número de producto
 en cualquier galeria, estos no aparecen en el sitio web, aunque si en el archivo
 json.
 Bueno esto haciendo pruebas desde localhost + git + json server
+
+
+
+https://github.com/AndresJaramillo2023/Fake-API/blob/master/db.json
+
+
+
+link del servidor que sirve para json

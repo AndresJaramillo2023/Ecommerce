@@ -23,13 +23,15 @@
     <div class="container">
         <section class="menu">
             <header class="menu__encabezado">
-                <img class="menu__icono" src="assets/img/icono.png" alt="Logo">
-                <img class="menu__imagen" src="assets/img/texto.png" alt="Imagen">
+                <a href="index.html" class="menu__encabezado__enlace">
+                    <img class="menu__icono" src="assets/img/icono.png" alt="Logo">
+                    <img class="menu__imagen" src="assets/img/texto.png" alt="Imagen">
+                </a>
             </header>
             <nav class="menu__navegador">
                 <form action="" class="menu__navegador__form" id="menu__navegador__form" name="menu__navegador__form">
                     <div class="menu__navegador__form__wrapper">
-                        <input type="search" id="search" name="search" placeholder="Que deseas buscar?"  
+                        <input type="search" id="search" name="search" placeholder="Que deseas buscar?"
                             class="menu__navegador__form__wrapper__input">
                         <svg xmlns="http://www.w3.org/2000/svg" class="menu__navegador__form__wrapper__icon"
                             viewBox="0 0 20 20" fill="currentColor">
@@ -38,7 +40,7 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </div>
-                    <a href="./screens/Login.html" class="menu__navegador__form__button">Login</a>
+                    <a href="screens/Login.html" class="menu__navegador__form__button">Login</a>
                 </form>
             </nav>
         </section>
@@ -47,53 +49,59 @@
             <div class="banner-imagen">
                 <h1 class="banner-imagen__titulo">Febrero Promocional</h1>
                 <h2 class="banner-imagen__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <a class="banner-imagen__link" href="#idStarWars">Ver consolas</a>
+                <a class="banner-imagen__link" href="#idConsolas">Ver consolas</a>
             </div>
         </section>
         <!-- Sección Galerias -->
         <section class="galerias">
             <!-- Sección StarWars -->
-            <section class="starWars" id="idStarWars">
+            <section class="starWars">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo">
                         <h2 class="starWars__titulo">Star Wars</h2>
                         <div class="starWars__wrapper__titulo__icono">
-                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
-                            <img src="assets/img/flecha-correcta (1).png">
+                            <a href="VerTodo.html" class="starWars__wrapper__titulo__icono__enlace">
+                                <h2 class="starWars__titulo__icono">Ver todo</h2>
+                                <img src="assets/img/flecha-correcta (1).png" class="starWars__titulo__icono__link">
+                            </a>
                         </div>
                     </div>
                     <div class="starWars__galeria" data-product>
-                        
+
                     </div>
                 </div>
             </section>
             <!-- Sección Consolas -->
-            <section class="starWars">
+            <section class="starWars" id="idConsolas">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo">
                         <h2 class="starWars__titulo">Consolas</h2>
                         <div class="starWars__wrapper__titulo__icono">
-                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
-                            <img src="assets/img/flecha-correcta (1).png">
+                            <a href="VerTodo.html" class="starWars__wrapper__titulo__icono__enlace">
+                                <h2 class="starWars__titulo__icono">Ver todo</h2>
+                                <img src="assets/img/flecha-correcta (1).png" class="starWars__titulo__icono__link">
+                            </a>
                         </div>
                     </div>
                     <div class="starWars__galeria" data-product2>
-                        
+
                     </div>
                 </div>
-            </section> 
+            </section>
             <!-- Sección Diversos -->
-            <section class="starWars">
+            <section class="starWars" id="idDiversos">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo">
                         <h2 class="starWars__titulo">Diversos</h2>
                         <div class="starWars__wrapper__titulo__icono">
-                            <a class="starWars__titulo__icono" href="VerTodo.html">Ver todo</a>
-                            <img src="assets/img/flecha-correcta (1).png">
+                            <a href="VerTodo.html" class="starWars__wrapper__titulo__icono__enlace">
+                                <h2 class="starWars__titulo__icono">Ver todo</h2>
+                                <img src="assets/img/flecha-correcta (1).png" class="starWars__titulo__icono__link">
+                            </a>
                         </div>
                     </div>
                     <div class="starWars__galeria oscuro" data-product3>
-                        
+
                     </div>
                 </div>
             </section>
@@ -128,7 +136,7 @@
                     </ul>
                 </div>
                 <div class="empresa__contacto">
-                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                    <form action="screens/registro_concluido.html" class="empresa__contacto__form" data-form>
                         <label class="empresa__contacto__form__label">Hable con nosotros</label>
                         <div class="input-container">
                             <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
@@ -167,5 +175,5 @@
 
 </html>
 <script>
-    
+
 </script>

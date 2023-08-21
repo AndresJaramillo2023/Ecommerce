@@ -24,8 +24,10 @@
     <div class="container">
         <section class="menu">
             <header class="menu__encabezado">
-                <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
-                <img class="menu__imagen" src="../assets/img/texto.png" alt="Logo">
+                <a href="../index.html" class="menu__encabezado__enlace">
+                    <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
+                    <img class="menu__imagen" src="../assets/img/texto.png" alt="Logo">
+                </a>
             </header>
             <nav class="menu__navegador">
                 <form action="" class="menu__navegador__form">
@@ -51,8 +53,7 @@
                     <div class="formulario__wrapper__formulario__producto__principal">
                         <div class="input-container--invalid-formulario-producto">
                             <input name="url" id="url" type="url" class="formulario__wrapper__form__input"
-                                placeholder="URL de imagen" required data-tipo="link"
-                                pattern="https?://([a-zA-Z0-9]([^ @&%$\\\/\(\)=?¿!.,:;]|\\d)*[a-zA-Z0-9][\.]){1,2}[a-zA-Z]{2,4}((?<=[a-zA-Z]{2,4})[\.][a-zA-Z]{2})?/?((?<=/)(([^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]|\d)+[\/]?)*(#(?<=#)[^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]*)?(\?(?<=\?)([^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+[=][^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+(&(?<=&)[^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*%\|]+[=][^ @&$#\\\/\(\)+=?¿!,:;'&quot;^´*\|]+)*))?)?"
+                                placeholder="URL de imagen" required data-tipo="link" 
                                 data-url>
                             <label class="input-label--error-formulario-producto" for="url"></label>
                             <span class="input-message-error"></span>
@@ -71,8 +72,7 @@
                         <div class="input-container--invalid-formulario-producto">
                             <input name="nombre" id="nombre" type="text" class="formulario__wrapper__form__input"
                                 placeholder="Nombre del producto" required pattern="^[a-zA-Z0-9 ]+$"
-                                data-tipo="renombre" 
-                                data-nombre>
+                                data-tipo="renombre" data-nombre>
                             <label class="input-label--error-formulario-producto" for="nombre"></label>
                             <span class="input-message-error"></span>
                         </div>
@@ -80,7 +80,7 @@
                     <div class="formulario__wrapper__formulario__producto__principal">
                         <div class="input-container--invalid-formulario-producto">
                             <input name="precio" id="precio" type="number" class="formulario__wrapper__form__input"
-                                placeholder="Precio del producto" required pattern="/d+[0-9]" data-tipo="costo" 
+                                placeholder="Precio del producto" required pattern="/d+[0-9]" data-tipo="costo"
                                 data-precio>
                             <label class="input-label--error-formulario-producto" for="numero"></label>
                             <span class="input-message-error"></span>
@@ -90,8 +90,7 @@
                         <div class="input-container--invalid-formulario-producto">
                             <textarea name="descripcion" id="descripcion" class="formulario__wrapper__form__textarea"
                                 placeholder="Descripción del producto" required minlength="1" maxlength="150" cols="1"
-                                rows="1" title="Este es el title de text area" type="text"  
-                                data-descripcion></textarea>
+                                rows="1" title="Este es el title de text area" type="text" data-descripcion></textarea>
                             <label class="input-label--error-formulario-producto" for="descripcion"></label>
                             <span class="input-message-error"></span>
                         </div>
@@ -130,7 +129,7 @@
                     </ul>
                 </div>
                 <div class="empresa__contacto">
-                    <form action="./registro_concluido.html" class="empresa__contacto__form" data-form>
+                    <form action="registro_concluido.html" class="empresa__contacto__form" data-form>
                         <label class="empresa__contacto__form__label">Hable con nosotros</label>
                         <div class="input-container">
                             <input name="empresa" id="empresa" class="empresa__contacto__form__input" type="text"
@@ -169,4 +168,3 @@
 </body>
 
 </html>
-

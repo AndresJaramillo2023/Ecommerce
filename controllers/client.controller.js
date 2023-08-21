@@ -9,7 +9,7 @@ const crearNuevaLinea = (url, categoria, nombre, precio, descripcion, id) => {
   const contenido = `
   <ul class="starWars__galeria__box__lista">
       <li class="starWars__galeria__box__lista__item-imagen">
-              <img class="tarWars__galeria__box__lista__item-imagen__tamaño" src="${url}" id="${categoria}"></li>
+              <img class="tarWars__galeria__box__lista__item-imagen__tamaño" src="${url}" id="${categoria}" ></li>
       <li class="starWars__galeria__box__lista__item-titulo">
           <h3 id="${nombre}">${nombre}</h3>
       </li>
@@ -18,8 +18,8 @@ const crearNuevaLinea = (url, categoria, nombre, precio, descripcion, id) => {
       </li>
       <li class="starWars__galeria__box__lista__item-link"><a href="formularioProducto.html">Ver producto</a></li>
       <div class="starWars__galeria__box__lista__item-botones">
-      <li class="starWars__galeria__box__lista__botones__item-button"><button id=${id}><img src="assets/img/icono-eliminar.png" width="20px" height="20px" title="Eliminar"></button></li>
-      <li class="starWars__galeria__box__lista__botones__item-enlace"><a href="screens/FormularioProductoModificar.html?id=${id}&categoria=${categoria}"><img src="assets/img/icono-modificar.png" width="20px" title="Modificar"></a></li>
+      <li class="starWars__galeria__box__lista__botones__item-button"><button id=${id}><img src="../assets/img/icono-eliminar.png" width="20px"title="Eliminar"></button></li>
+      <li class="starWars__galeria__box__lista__botones__item-enlace"><a href="../screens/FormularioProductoModificar.html?id=${id}&categoria=${categoria}"><img src="../assets/img/icono-modificar.png" width="20px" title="Modificar"></a></li>
       </div>
   </ul>`;
 

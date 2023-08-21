@@ -69,7 +69,7 @@ formulario.addEventListener("submit", (event) => {
             window.location.href = "../index.html";
         })
        .catch(err => console.log(err));
-       window.location.reload;
+       window.location.reload()
     } else {
         clientServices.actualizarCliente(varUrl, categoria, varNombre, varPrecio, varDescripcion, id).then(() => {
         window.location.href = "../index.html";
