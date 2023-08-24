@@ -8,7 +8,7 @@ const obtenerInformacion = async () => {
     const cat = url.searchParams.get("categoria");
 
     if (id === null) {
-        window.location.href = "./Error.html";
+        window.location.href = "../screens/Error.html";
     }
 
     const varUrl = document.querySelector("[data-url]");
@@ -32,7 +32,7 @@ const obtenerInformacion = async () => {
             throw new Error(); //Activamos el error
         }
     } catch (error) {
-        alert("Errores al precargar los datos en el archivo actuliazar.controller.js")
+        alert("Errores al precargar los datos en el archivo actualizar.controller.js")
     }
 };
 
@@ -66,13 +66,13 @@ formulario.addEventListener("submit", (event) => {
         clientServices
         .crearCliente1(varUrl, categoria, varNombre, varPrecio, varDescripcion)
         .then(() => {
-            window.location.href = "../index.html";
+            window.location.href = "../index-administrador.html";
         })
        .catch(err => console.log(err));
        window.location.reload()
     } else {
         clientServices.actualizarCliente(varUrl, categoria, varNombre, varPrecio, varDescripcion, id).then(() => {
-        window.location.href = "../index.html";
+        window.location.href = "../index-administrador.html";
         });
     }
 });

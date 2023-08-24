@@ -27,7 +27,7 @@
     <div class="container">
         <section class="menu">
             <header class="menu__encabezado">
-                <a href="index.html" class="menu__encabezado__enlace">
+                <a href="index-administrador.html" class="menu__encabezado__enlace">
                 <img class="menu__icono" src="assets/img/icono.png" alt="Logo">
                 <img class="menu__imagen" src="assets/img/texto.png" alt="Imagen">
                 </a>
@@ -57,9 +57,24 @@
             </div>
         </section>
         <!-- Sección Galerias -->
-        <section class="galerias">
+        <section class="galerias" id="idGalerias">
+            <!-- Sección descripción -->
+            <section class="zonaDescripcion" id="idDescripcion">
+                <div class="zonaDescripcion-fila" id="zonaDescripcion-fila">
+                    <div class="zonaDecripcion-fila-imagen">
+                        <img src="assets/img/icono.png" id="idDescripcionImagen" alt="" class="zonaDecripcion-fila-imagen-tamaño">
+                    </div>
+                    <div class="zonaDecripcion-fila-informacion">
+                        <div class="zonaDecripcion-fila-informacion-contenedor">
+                            <h1 class="zonaDecripcion-fila-informacion-titulo" data-descripcion-nombre></h1>
+                            <h2 class="zonaDecripcion-fila-informacion-subtitulo" data-descripcion-precio></h2>
+                            <p class="zonaDecripcion-fila-informacion-parrafo" data-descripcion-parrafo></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Sección StarWars -->
-            <section class="starWars">
+            <section class="starWars" id="idStarWars">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo">
                         <h2 class="starWars__titulo">Todos los productos</h2>
@@ -73,7 +88,7 @@
                 </div>
             </section>
             <!-- Sección Consolas -->
-            <section class="starWars">
+            <section class="starWars" id="idConsolas">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo" id="starWars__wrapper__titulo__ocultar">
                         <h2 class="starWars__titulo"></h2>
@@ -87,7 +102,7 @@
                 </div>
             </section>
             <!-- Sección Diversos -->
-            <section class="starWars">
+            <section class="starWars" id="idDiversos">
                 <div class="starWars__wrapper">
                     <div class="starWars__wrapper__titulo" id="starWars__wrapper__titulo__ocultar">
                         <h2 class="starWars__titulo"></h2>
@@ -161,6 +176,7 @@
         </section>
         <script src="controllers/app.js"  type="module"></script>
         <script src="controllers/client.controller.js" type="module"></script>
+        <script src="controllers/consultar.js"></script>
 </body>
 
 </html>

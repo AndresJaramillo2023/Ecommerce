@@ -12,7 +12,7 @@ formulario.addEventListener("submit", (evento) => {
     clientServices
     .crearCliente1( url,categoria,nombre,precio,descripcion )
     .then(() => {
-        window.location.href = "../index.html";
+        window.location.href = "../index-administrador.html";
     })
     .catch(err => console.log(err));
 });

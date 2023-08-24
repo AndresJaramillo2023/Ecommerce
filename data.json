@@ -3,7 +3,7 @@
     {
       "url": "data:image/jpeg;base64,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",
       "categoria": "Star Wars",
-      "nombre": "Stom trooper",
+      "nombre": "Stormtrooper",
       "precio": "900000",
       "descripcion": "figura de coleccion",
       "id": "11"
@@ -11,7 +11,7 @@
     {
       "url": "https://exitocol.vtexassets.com/arquivos/ids/16870913/Darth-Vader-STAR-WARS-Olympus-3366619_a.jpg?v=638143118329930000",
       "categoria": "Star Wars",
-      "nombre": "Dark vader nuevo",
+      "nombre": "Darth vader nuevo",
       "precio": "900000",
       "descripcion": "consola de videojuegos",
       "id": "12"
@@ -21,7 +21,7 @@
       "categoria": "Star Wars",
       "nombre": "alcon milenario",
       "precio": "50000",
-      "descripcion": "figura de star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam nibh, maximus vel sodales vel, consectetur vitae quam. Aliquam vitae orci vitae to",
       "id": "eb8ae78c-12a3-4452-9b3f-4b483e739cbc"
     }
   ],
@@ -115,6 +115,32 @@
       "precio": "1000000",
       "descripcion": "tarro de agua metalico",
       "id": "31"
+    }
+  ],
+  "usuarios": [
+    {
+      "email": "administrador108@gmail.com",
+      "clave": "Administrador__123__password"
+    },
+    {
+      "email": "martha105@gmail.com",
+      "clave": "Martha__123__password"
+    },
+    {
+      "email": "ibeth101@gmail.com",
+      "clave": "Ibeth__123__password"
+    },
+    {
+      "email": "marcos210@gmail.com",
+      "clave": "Marcos__123__password"
+    },
+    {
+      "email": "angie220@gmail.com",
+      "clave": "Angie__123__password"
+    },
+    {
+      "email": "lisa250@gmail.com",
+      "clave": "Lisa__123__password"
     }
   ]
 }

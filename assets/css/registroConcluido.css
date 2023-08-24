@@ -1,3 +1,178 @@
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    /*container flex flex--column flex--center*/
+    .wrapper-cabecera{
+        width: 80%;
+        background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+        height: 13rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /*wrapper-cabecera-span*/
+    .wrapper-cabecera-span{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: linear-gradient(to right, rgb(240, 100, 25), rgb(237, 222, 93));
+    }
+     
+    /*wrapper-imagen*/
+    .wrapper-imagen{
+        width: 80%;
+        background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+        height: 25rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /*wrapper-imagen-principal*/
+    .wrapper-imagen-principal{
+        background-color: white;
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.5rem;
+    }
+    
+    /*wrapper-imagen-img*/
+    .wrapper-imagen-img{
+        width: 7rem;
+        height: 7rem;
+        background-color: white;
+    }
+    
+    /*wrapper-imagen-titulo*/
+    .wrapper-imagen-titulo{
+        width: 100%;
+        height: 7rem;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat';
+        letter-spacing: 0.1rem;
+        font-size: x-large;
+        text-align: center;
+    }
+    
+    /*wrapper-imagen-principal-contenedor*/
+    .wrapper-imagen-principal-contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    /*wrapper-imagen-tabla*/
+    .wrapper-imagen-principal-contenedor > table {
+        width: 80%;
+        border: 1px solid #000;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+     }
+
+      /*wrapper-imagen-tabla-boton*/
+ .wrapper-imagen-principal-contenedor .wrapper-imagen-tabla-boton{
+    width: 100%;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+     /*botonAdicionar*/
+ .botonAdicionar{
+    font-size: x-small;
+    background: url('../img/fondo-boton-verde.jpg') no-repeat center / cover;
+    color: orange;
+    border-radius: 0.1rem;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+     thead{
+        background-color: black;
+        color: white;
+     }
+    
+     .odd td {
+        background: #eef2e8;
+     }
+     .even td {
+        background: #dedfd5;
+     }
+    
+     tbody .opciones{
+        background-color: black;
+        color: white;
+        width: 10px;
+        text-align: center;
+        cursor: pointer;
+     }
+    
+     tbody .opciones-imagen{
+        width: 10px;
+        height: 10px;
+        object-fit: cover;
+     }
+    
+    th{
+        font-family: 'Montserrat';
+        font-size: xx-small;
+    }
+    
+     td {
+        width: 25%;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid #e5d8d8;
+        border-collapse: collapse;
+        padding: 0.3em;
+        caption-side: bottom;
+        font-size: xx-small;
+     }
+     
+    
+    
+    /*wrapper-imagen-button*/
+    .wrapper-imagen-zonaButon{
+        width: 100%;
+        height: 7rem;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+    }
+    
+    /*wrapper-imagen-zonaButton-button*/
+    .wrapper-imagen-zonaButton-button{
+        width: 20%;
+        height: 2rem;
+        background-color:#0071ea;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.2rem;
+        color: white;
+        font-size: xx-small;
+        font-family: 'Montserrat';
+    }
+    }
+
+/*T_A_B_L_E_T  Y  D_E_S_K_T_O_P*/
+@media screen and (min-width:768px) {
 /*container flex flex--column flex--center*/
 .wrapper-cabecera{
     width: 80%;
@@ -33,7 +208,7 @@
 /*wrapper-imagen-principal*/
 .wrapper-imagen-principal{
     background-color: white;
-    width: 70%;
+    width: 100%;
     height: 20rem;
     display: flex;
     flex-direction: column;
@@ -63,6 +238,87 @@
     text-align: center;
 }
 
+/*wrapper-imagen-principal-contenedor*/
+.wrapper-imagen-principal-contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+/*wrapper-imagen-tabla*/
+.wrapper-imagen-principal-contenedor > table {
+    width: 80%;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ /*wrapper-imagen-principal-contenedor .wrapper-imagen-tabla-boton*/
+ .wrapper-imagen-principal-contenedor .wrapper-imagen-tabla-boton{
+    width: 100%;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ /*botonAdicionar*/
+ .botonAdicionar{
+    font-size: medium;
+    background: url('../img/fondo-boton-verde.jpg') no-repeat center / cover;
+    color: orange;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.wrapper-imagen-principal-contenedor > table >thead{
+    background-color: black;
+    color: white;
+ }
+
+ .odd td {
+    background: #eef2e8;
+ }
+ .even td {
+    background: #dedfd5;
+ }
+
+ tbody .opciones{
+    background-color: black;
+    color: white;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ tbody .opciones-imagen{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+ }
+
+th{
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+ td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #e5d8d8;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    font-size: large;
+ }
+ 
+
 
 /*wrapper-imagen-button*/
 .wrapper-imagen-zonaButon{
@@ -87,6 +343,8 @@
     justify-content: center;
     border-radius: 0.2rem;
     color: white;
-    font-size: mediun;
+    font-size: medium;
     font-family: 'Montserrat';
 }
+}
+

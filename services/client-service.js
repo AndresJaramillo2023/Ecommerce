@@ -162,6 +162,15 @@ const actualizarCliente = (url, categoria, nombre, precio, descripcion, id) => {
         .catch((err) => console.log(err));
 }
 
+const detalleUsuario = (email,clave) => {
+  //http://localhost:3000/usuarios/?email=martha105@gmail.com
+  //http://localhost:3000/usuarios/?email=martha105@gmail.com&/clave=Martha__123__password
+  return fetch(`https://fake-api-pi.vercel.app/?email=${email}&/clave=${clave}`).then((respuesta) =>
+  respuesta.json()).catch(
+    (alert("buscando usuario...")),
+    (window.location.href = "../screens/registro_usuario_error.html"));
+}
+
 
 
 export const clientServices = {
@@ -173,4 +182,5 @@ export const clientServices = {
   detalleCliente,
   actualizarCliente,
   eliminarClienteSimple,
+  detalleUsuario
 };

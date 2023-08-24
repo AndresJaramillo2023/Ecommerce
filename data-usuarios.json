@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "email": "carlos108@gmail.com",
+      "clave": "Carlos__123__password"
+    },
+    {
+      "email": "martha105@gmail.com",
+      "clave": "Martha__123__password"
+    },
+    {
+      "email": "ibeth101@gmail.com",
+      "clave": "Ibeth__123__password"
+    },
+    {
+      "email": "marcos210@gmail.com",
+      "clave": "Marcos__123__password"
+    },
+    {
+      "email": "angie220@gmail.com",
+      "clave": "Angie__123__password"
+    },
+    {
+      "email": "lisa250@gmail.com",
+      "clave": "Lisa__123__password"
+    }
+  ]
+}

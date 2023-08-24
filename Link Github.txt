@@ -1,8 +1,8 @@
-Como hacer actualizaciones a un repositorio remoto ya existente en Github
+usComo hacer actualizaciones a un repositorio remoto ya existente en Github
 https://www.youtube.com/watch?v=_GFgMjjWSQQ
 
 Pasos
-1.Ejecutar git Bach en el escritorio
+1.Ejecutar git Bash en el escritorio
 click derecho 
 Git Bash here
 2.Dirgirse a GitHub

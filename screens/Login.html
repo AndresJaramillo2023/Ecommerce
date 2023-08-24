@@ -24,8 +24,10 @@
     <div class="container">
         <section class="menu">
             <header class="menu__encabezado">
-                <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
-                <img class="menu__imagen" src="../assets/img/texto.png" alt="Logo">
+                <a href="../index-administrador.html" class="menu__encabezado__enlace">
+                    <img class="menu__icono" src="../assets/img/icono.png" alt="Logo">
+                    <img class="menu__imagen" src="../assets/img/texto.png" alt="Logo">
+                </a>
             </header>
             <nav class="menu__navegador">
                 <form action="" class="menu__navegador__form">
@@ -46,26 +48,38 @@
         <!-- Sección formulario -->
         <section class="formulario">
             <div class="formulario__wrapper">
-                <form action="./FormularioProducto.html" class="formulario__wrapper__form" data-form>
+                <form action="#" class="formulario__wrapper__form" id="formularioLogin" data-form>
                     <label for="" class="formulario__wrapper__form__label">Iniciar sesión</label>
                     <div class="formulario__wrapper__inicio__sesion__principal">
                         <div class="container-input-inicio-sesion">
-                            <input name="email" id="email" type="email" class="formulario__wrapper__form__input"
-                                placeholder="Escriba su correo electrónico" required data-tipo="correo">
+                            <input name="email" 
+                            id="email" 
+                            type="email" 
+                            class="formulario__wrapper__form__input" 
+                                placeholder="Escriba su correo electrónico" 
+                                required data-tipo="correo" 
+                                data-email 
+                                value="administrador108@gmail.com">
                             <label class="input-label-inicio-sesion" for="email"></label>
                             <span class="input-message-error"></span>
                         </div>
                     </div>
                     <div class="formulario__wrapper__inicio__sesion__principal">
                         <div class="container-input-inicio-sesion">
-                            <input name="password" id="password" type="password"
-                                class="formulario__wrapper__form__input" placeholder="Escriba su contraseña" required
-                                data-tipo="clave">
+                            <input name="password" 
+                            id="password" 
+                            type="password" 
+                                class="formulario__wrapper__form__input" 
+                                placeholder="Escriba su contraseña" 
+                                required 
+                                data-tipo="clave" 
+                                data-clave 
+                                value="Administrador__123__password">
                             <label class="input-label-inicio-sesion" for="password"></label>
                             <span class="input-message-error"></span>
                         </div>
                     </div>
-                    <button class="formulario__wrapper__form__button">Entrar</button>
+                    <button class="formulario__wrapper__form__button" id="idEntrar">Entrar</button>
                 </form>
             </div>
         </section>
@@ -73,8 +87,8 @@
         <section class="empresa">
             <div class="wrapper">
                 <div class="empresa__imagenes">
-                    <img src="img/icono.png" alt="" class="empresa__imagenes__icono">
-                    <img src="img/texto.png" alt="" class="empresa__imagenes__logo">
+                    <img src="../assets/img/icono.png" alt="" class="empresa__imagenes__icono">
+                    <img src="../assets/img/texto.png" alt="" class="empresa__imagenes__logo">
                 </div>
                 <div class="empresa__informacion">
                     <ul class="empresa__informacion__lista">
@@ -131,6 +145,7 @@
         </section>
     </div>
     <script src="../controllers/app.js" type="module"></script>
+    <script src="../controllers/ingresar.controller.js" type="module"></script>
 </body>
 
 </html>
