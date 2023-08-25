@@ -24,7 +24,7 @@ const crearNuevaLinea = (url, categoria, nombre, precio, descripcion, id) => {
       <li class="starWars__galeria__box__lista__item-link"><a onclick="mostrar(${arreglo},'true')">Ver producto</a></li>
       <div class="starWars__galeria__box__lista__item-botones">
       <li class="starWars__galeria__box__lista__botones__item-button"><button id=${id}><img src="assets/img/icono-eliminar.png" width="20px"title="Eliminar"></button></li>
-      <li class="starWars__galeria__box__lista__botones__item-enlace"><a href="../screens/FormularioProductoModificar.html?id=${id}&categoria=${categoria}"><img src="assets/img/icono-modificar.png" width="20px" title="Modificar"></a></li>
+      <li class="starWars__galeria__box__lista__botones__item-enlace"><a href="screens/FormularioProductoModificar.html?id=${id}&categoria=${categoria}"><img src="assets/img/icono-modificar.png" width="20px" title="Modificar"></a></li>
       </div>
   </ul>`;
 
