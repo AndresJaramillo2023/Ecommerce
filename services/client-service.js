@@ -165,6 +165,9 @@ const actualizarCliente = (url, categoria, nombre, precio, descripcion, id) => {
 const detalleUsuario = (email,clave) => {
   //http://localhost:3000/usuarios/?email=martha105@gmail.com
   //http://localhost:3000/usuarios/?email=martha105@gmail.com&/clave=Martha__123__password
+
+  //PARA SERVIDOR REMOTO
+  //https://fake-api-pi.vercel.app/usuarios/?email=administrador108@gmail.com&/clave=Administrador__123__password
   return fetch(`https://fake-api-pi.vercel.app/?email=${email}&/clave=${clave}`).then((respuesta) =>
   respuesta.json()).catch(
     (alert("buscando usuario...")),
