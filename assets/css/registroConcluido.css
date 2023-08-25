@@ -2,7 +2,7 @@
 @media screen and (min-width:360px) {
     /*container flex flex--column flex--center*/
     .wrapper-cabecera{
-        width: 80%;
+        width: 90%;
         background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
         height: 13rem;
         display: flex;
