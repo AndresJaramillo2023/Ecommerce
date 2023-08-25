@@ -168,7 +168,7 @@ const detalleUsuario = (email,clave) => {
 
   //PARA SERVIDOR REMOTO
   //https://fake-api-pi.vercel.app/usuarios/?email=administrador108@gmail.com&/clave=Administrador__123__password
-  return fetch(`https://fake-api-pi.vercel.app/?email=${email}&/clave=${clave}`).then((respuesta) =>
+  return fetch(`https://fake-api-pi.vercel.app/usuarios/?email=${email}&/clave=${clave}`).then((respuesta) =>
   respuesta.json()).catch(
     (alert("buscando usuario...")),
     (window.location.href = "../screens/registro_usuario_error.html"));
