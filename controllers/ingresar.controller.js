@@ -13,7 +13,7 @@ formulario.addEventListener("submit", async (event) => {
         console.log(element.email)
         switch(element.email+element.clave){
             case varEmail+varClave:
-                window.location.href = "https://fake-api-pi.vercel.app/index-administrador.html";
+                window.location.href = "https://andresjaramillo2023.github.io/Ecommerce/index-administrador.html";
             break;
             // default:
             //     window.location.href = "http://127.0.0.1:5500/screens/registro_usuario_error.html";
